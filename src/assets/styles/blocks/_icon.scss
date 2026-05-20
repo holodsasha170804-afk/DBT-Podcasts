@@ -1,0 +1,65 @@
+@use "../helpers" as *;
+
+.icon {
+  &__before {
+    display: inline-flex;
+    align-items: center;
+    column-gap: rem(3);
+
+    &::before {
+      content: '';
+      width: 0;
+      height: 0;
+
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: contain;
+    }
+
+    &--white-box-arrow-in-right{
+      &::before {
+        background-image: url('../../icons/white-box-arrow-in-right.svg');
+        width: rem(16);
+        height: rem(16);
+      }
+    }
+
+    &--white-question-circle-fill {
+      &::before {
+        background-image: url('../../icons/question-circle-fill.svg');
+        width: rem(16);
+        height: rem(16);
+      }
+    }
+
+    &--white-bookmark-fill {
+      &::before {
+        background-image: url('../../icons/bookmark-fill.svg');
+        width: rem(16);
+        height: rem(15);
+      }
+    }
+  }
+
+  &__after {
+    display: inline-flex;
+    align-items: center;
+    column-gap: rem(3);
+
+    &::after {
+      content: '';
+
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: contain;
+    }
+
+    &--white-arrow-caret-down-fill{
+      &::after {
+        background-image: url('../../icons/caret-down-fill.svg');
+        width: rem(9);
+        height: rem(5);
+      }
+    }
+  }
+}

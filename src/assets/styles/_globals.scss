@@ -15,7 +15,6 @@ body {
   font-family: var(--font-family-base);
   letter-spacing: -0.03em;
   background-color: var(--color-light);
-  color: var(--color-gray-50);
 }
 
 main {
@@ -89,10 +88,10 @@ svg * {
 
 
 a {
-  color: inherit;
+  color: var(--color-light);
 
   @include hover{
-    color: var(--color-accent);
+    color: var(--color-gray-60);
   }
 
   &[class] {

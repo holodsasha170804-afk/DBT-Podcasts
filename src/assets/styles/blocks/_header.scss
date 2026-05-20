@@ -1,0 +1,58 @@
+@use '../helpers' as *;
+
+
+.header {
+  &__navbar {
+    background-color: var(--color-accent);
+    width: 100%;
+    height: rem(50);
+
+    &-inner {
+      display: flex;
+      column-gap: rem(25);
+    }
+
+    &-tabs {
+      flex-grow: 1;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      height: rem(50);
+    }
+  }
+
+  &__logo {
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: rem(180);
+    height: rem(115);
+    padding: rem(5) rem(15);
+    background-color: var(--color-light);
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    box-shadow: var(--shadow);
+  }
+
+  &__menu {
+    display: flex;
+    column-gap: rem(16);
+
+    .h4 {
+      color: var(--color-light);
+    }
+  }
+
+  &__player {
+    border: var(--border);
+    box-shadow: var(--shadow);
+
+    &-inner{
+      display: flex;
+      height: rem(50);
+      width: 100%;
+      justify-content: center;
+      align-items: center;
+    }
+  }
+}

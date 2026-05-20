@@ -1,5 +1,8 @@
+import Header from "@/scripts/Header.ts";
+
+
 export default function App() {
     return `
-    <div class="container">Hello World<div>
+    ${Header()}
     `
 }
