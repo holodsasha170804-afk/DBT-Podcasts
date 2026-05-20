@@ -1,0 +1,35 @@
+@use './helpers' as *;
+
+:root {
+  --color-dark: #000000;
+  --color-dark-10: #1A1A1A;
+  --color-dark-20: #4F4F4F;
+  --color-dark-30: #5E5E5E;
+
+  --color-gray-40: #98989A;
+  --color-dark-50: #adadad;
+  --color-gray-60: #E0E0E0;
+  --color-gray-70: #F0F1F4;
+
+  --color-light: #fff;
+
+  --color-accent: #058555;
+
+  --color-yellow: #FFD11A;
+
+
+  --border: #{rem(1)} solid var(--color-gray-60);
+  --border-accent: #{rem(1)} solid var(--color-accent);
+
+  --shadow: 0 #{rem(2)} #{rem(8)} rgba(0, 0, 0, 0.2);
+  --shadow-card: 0 #{rem(4)} #{rem(8)} rgba(0, 0, 0, 0.4);
+  --shadow-card-accent: #{rem(4)} #{rem(4)} #{rem(8)} rgba(5, 133, 85, 0.7);
+
+  --font-family-base: 'Inter', sans-serif;
+  --font-family-accent: 'Kumbh Sans', sans-serif;
+
+  --container-width: #{rem(1216)};
+  --container-padding-x: #{rem(12)};
+
+  --transition-duration: 0.3s;
+}
