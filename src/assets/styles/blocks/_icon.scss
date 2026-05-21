@@ -61,5 +61,21 @@
         height: rem(5);
       }
     }
+
+    &--pipe {
+      &::after {
+        content: '|';
+        color: var(--color-dark-20);
+        padding-inline: rem(5) rem(10);
+      }
+    }
+
+    &--blue-info-circle-fill {
+      &::after {
+        background-image: url('../../icons/info-circle-fill.svg');
+        width: rem(12);
+        height: rem(12);
+      }
+    }
   }
 }

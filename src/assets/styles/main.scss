@@ -1,9 +1,10 @@
-@use "normalise";
-@use "fonts";
-@use "variables";
-@use "utils";
-@use "globals";
+@use "base/normalize";
+@use "base/fonts";
+@use "base/variables";
+@use "base/utils";
+@use "base/globals";
 
 
 @use "blocks/header";
 @use "blocks/icon";
+@use "blocks/footer";

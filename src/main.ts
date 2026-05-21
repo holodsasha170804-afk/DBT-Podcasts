@@ -1,5 +1,5 @@
 import '@/assets/styles/main.scss';
-import App from "@/scripts/App.ts";
+import App from "@/app/App.ts";
 
 const root = document.querySelector('#app');
 

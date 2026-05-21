@@ -1,0 +1,46 @@
+@use '../helpers' as *;
+
+.footer {
+  background-color: var(--color-gray-70);
+  padding-block: rem(10) rem(20);
+
+  &__inner {
+    display: flex;
+    flex-direction: column;
+    row-gap: rem(16);
+    width: 100%;
+
+    p {
+      color: var(--color-dark-30);
+      font-size: rem(14);
+    }
+   }
+
+  &__menu {
+    display: flex;
+
+    &-item {
+
+      a {
+        color: var(--color-accent);
+        font-size: rem(17);
+
+        @include hover{
+          color: var(--color-accent-dark);
+        }
+      }
+    }
+  }
+
+  &__copyright {
+    padding-bottom: rem(10);
+  }
+
+  &__extra {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-block: rem(32);
+  }
+
+}

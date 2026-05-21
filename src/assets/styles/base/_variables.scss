@@ -1,4 +1,4 @@
-@use './helpers' as *;
+@use '../helpers' as *;
 
 :root {
   --color-dark: #000000;
@@ -14,6 +14,7 @@
   --color-light: #fff;
 
   --color-accent: #058555;
+  --color-accent-dark: #036843;
 
   --color-yellow: #FFD11A;
 
