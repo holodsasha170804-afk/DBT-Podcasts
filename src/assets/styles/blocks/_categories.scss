@@ -1,0 +1,63 @@
+@use '../helpers' as *;
+
+
+.categories {
+  display: inline-flex;
+
+  &__list {
+    display: inline-flex;
+    flex-direction: column;
+    border: var(--border);
+    border-radius: rem(15);
+    pointer-events: none;
+    overflow: hidden;
+    max-height: 0;
+    opacity: 0;
+    transform:
+            translateY(-6px)
+            scaleY(0.95);
+    transition:
+            max-height 0.35s ease,
+            opacity 0.4s ease,
+            transform 0.4s ease;
+    transform-origin: top;
+
+    &.is-expanded {
+      max-height: rem(700);
+      opacity: 1;
+      transform: translateY(0);
+      pointer-events: auto;
+    }
+  }
+
+  &__item {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-inline: rem(10);
+    height: rem(37);
+    transition: box-shadow 0.2s ease;
+
+    &:first-child {
+      border-radius: rem(15) rem(15) 0 0;
+    }
+
+    &:last-child {
+      border-radius: 0 0 rem(15) rem(15);
+    }
+
+
+    @include hover {
+      background-color: var(--color-gray-70);
+      box-shadow: inset 0 -1px 0 var(--color-accent);
+    }
+  }
+
+  &__title {
+    display: flex;
+    flex-grow: 1;
+    justify-content: space-between;
+    background-color: transparent;
+    border: none;
+  }
+}

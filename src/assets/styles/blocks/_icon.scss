@@ -93,5 +93,15 @@
         height: rem(12);
       }
     }
+
+    &--chevron-right {
+      column-gap: rem(10);
+
+      &::after {
+        background-image: url('../../icons/chevron-right.svg');
+        width: rem(16);
+        height: rem(16);
+      }
+    }
   }
 }
