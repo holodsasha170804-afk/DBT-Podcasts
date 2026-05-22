@@ -7,7 +7,7 @@ export default function SearchPanel(): string {
             <button type="button" class="search-panel__button-search button icon__before icon__before--white-search">Suchen</button>
         </div>
         <div class="search-panel__select-category categories">
-       
+            <div>This is Test</div>
         </div>
     </div>
     `
