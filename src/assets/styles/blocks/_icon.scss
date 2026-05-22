@@ -39,6 +39,22 @@
         height: rem(15);
       }
     }
+
+    &--white-arrow-caret-down-fill{
+      &::before {
+        background-image: url('../../icons/caret-down-fill.svg');
+        width: rem(18);
+        height: rem(18);
+      }
+    }
+
+    &--white-search {
+      &::before {
+        background-image: url('../../icons/search.svg');
+        width: rem(19);
+        height: rem(19);
+      }
+    }
   }
 
   &__after {

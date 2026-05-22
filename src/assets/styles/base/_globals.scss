@@ -25,6 +25,7 @@ body {
 
 main {
   flex-grow: 1;
+  padding-block: rem(40);
 }
 
 h1, .h1,
@@ -33,15 +34,8 @@ h3, .h3,
 h4, .h4,
 h5, .h5,
 h6, .h6 {
-  color: var(--color-dark);
   font-weight: 500;
 
-}
-
-h1, .h1,
-h2, .h2,
-h3, .h3, {
-  font-family: var(---font-family-accent);
 }
 
 h4, .h4,

@@ -1,0 +1,31 @@
+@use "../helpers" as *;
+
+.search-panel {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  &__body {
+    display: flex;
+    width: rem(960);
+  }
+
+  &__button {
+    &-categories {
+      border-radius: rem(15) 0 0 rem(15) ;
+    }
+
+    &-search {
+      border-radius: 0 rem(15) rem(15) 0;
+    }
+  }
+
+  &__input {
+    flex-grow: 1;
+    padding-block: rem(12);
+    border: var(--border);
+    text-align: center;
+    padding-inline: rem(16);
+    color: var(--color-dark-30);
+  }
+}

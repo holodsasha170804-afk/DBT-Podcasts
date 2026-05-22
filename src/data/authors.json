@@ -1,0 +1,28 @@
+{
+  "authors": [
+    {
+      "id": "0001",
+      "name": "Oleksandr Kholod",
+      "language": ["Deutsch", "Englisch", "Russisch", "Ukrainisch"],
+      "avatar": "/images/authors/alex-future.jpg",
+      "bio": "Auszubildender zum Fachinformatiker für Anwendungsentwicklung im ersten Ausbildungsjahr",
+      "socials": {
+        "twitter": "https://twitter.com/",
+        "github": "https://github.com/Aleks1754",
+        "website": "https://alexfuture.dev"
+      },
+      "createdAt": "21-05-2026"
+    },
+    {
+      "id": "0002",
+      "name": "Dr. Lena Weber",
+      "language": ["Deutsch", "Englisch", "Ungarisch", "Spanisch"],
+      "avatar": "/images/authors/lena-weber.jpg",
+      "bio": "Researcher in neuroscience and cognitive systems.",
+      "socials": {
+        "website": "https://lenaresearch.org"
+      },
+      "createdAt": "22-05-2026"
+    }
+  ]
+}

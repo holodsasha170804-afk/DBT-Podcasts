@@ -1,0 +1,18 @@
+@use "../helpers" as *;
+
+
+.button {
+    display: inline-flex;
+    align-items: center;
+    padding: rem(13);
+    border-radius: rem(4);
+    border: none;
+    background-color: var(--color-accent);
+    color: var(--color-light);
+    transition-duration: var(--transition-duration);
+
+    &:hover {
+      background-color: var(--color-accent-dark);
+      color: var(--color-gray-70);
+    }
+}

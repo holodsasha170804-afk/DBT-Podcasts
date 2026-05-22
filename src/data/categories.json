@@ -1,0 +1,154 @@
+{
+  "categories": {
+    "000": {
+      "name": "Informatik, Information & Wissen, allgemeine Werke",
+      "subcategories": {
+        "000": "Informatik, Information & Wissen, allgemeine Werke",
+        "010": "Bibliografien",
+        "020": "Bibliotheks- und Informationswissenschaften",
+        "030": "Enzyklopädien & Faktenbücher",
+        "040": "Nicht zugeordnet",
+        "050": "Zeitschriften & Journale",
+        "060": "Allgemeine Organisationen & Museumswissenschaft",
+        "070": "Nachrichtenmedien, Journalismus & Verlagswesen",
+        "080": "Allgemeine Sammelwerke",
+        "090": "Manuskripte & seltene Bücher"
+      }
+    },
+    "100": {
+      "name": "Philosophie und Psychologie",
+      "subcategories": {
+        "100": "Philosophie",
+        "110": "Metaphysik",
+        "120": "Erkenntnistheorie",
+        "130": "Parapsychologie & Okkultismus",
+        "140": "Philosophische Denkschulen",
+        "150": "Psychologie",
+        "160": "Philosophische Logik",
+        "170": "Ethik",
+        "180": "Antike, mittelalterliche & östliche Philosophie",
+        "190": "Moderne westliche Philosophie"
+      }
+    },
+    "200": {
+      "name": "Religion",
+      "subcategories": {
+        "200": "Religion",
+        "210": "Philosophie und Religionstheorie",
+        "220": "Die Bibel",
+        "230": "Das Christentum",
+        "240": "Christliche Praxis & Beachtung",
+        "250": "Christliche Pastoralpraxis & Ordensgemeinschaften",
+        "260": "Christliche Organisation, Sozialarbeit & Anbetung",
+        "270": "Geschichte des Christentums",
+        "280": "Christliche Konfessionen",
+        "290": "Andere Religionen"
+      }
+    },
+    "300": {
+      "name": "Sozialwissenschaften",
+      "subcategories": {
+        "300": "Sozialwissenschaften",
+        "310": "Allgemeine Statistiken",
+        "320": "Politikwissenschaft",
+        "330": "Wirtschaft",
+        "340": "Recht",
+        "350": "Öffentliche Verwaltung & Militärwissenschaft",
+        "360": "Soziale Probleme & Dienstleistungen",
+        "370": "Bildung & Erziehung",
+        "380": "Handel, Kommunikation, Verkehr",
+        "390": "Bräuche, Etikette & Folklore"
+      }
+    },
+    "400": {
+      "name": "Sprache",
+      "subcategories": {
+        "400": "Sprache",
+        "410": "Linguistik",
+        "420": "Englisch & Altenglisch",
+        "430": "Deutsche & verwandte Sprachen",
+        "440": "Französisch & verwandte Sprachen",
+        "450": "Italienisch, Rumänisch & verwandte Sprachen",
+        "460": "Spanisch & Portugiesisch",
+        "470": "Lateinisch & italische Sprachen",
+        "480": "Klassisches Griechisch & verwandte Sprachen",
+        "490": "Andere Sprachen"
+      }
+    },
+    "500": {
+      "name": "Naturwissenschaften und Mathematik",
+      "subcategories": {
+        "500": "Naturwissenschaften",
+        "510": "Mathematik",
+        "520": "Astronomie",
+        "530": "Physik",
+        "540": "Chemie",
+        "550": "Geowissenschaften",
+        "560": "Paläontologie",
+        "570": "Biologie",
+        "580": "Pflanzen (Botanik)",
+        "590": "Tiere (Zoologie)"
+      }
+    },
+    "600": {
+      "name": "Technik, Medizin, angewandte Wissenschaften",
+      "subcategories": {
+        "600": "Technik",
+        "610": "Medizin & Gesundheit",
+        "620": "Ingenieurwissenschaften",
+        "630": "Landwirtschaft",
+        "640": "Hauswirtschaft & Familie",
+        "650": "Management & Öffentlichkeitsarbeit",
+        "660": "Chemische Verfahrenstechnik",
+        "670": "Fertigung",
+        "680": "Spezifische Produktherstellung",
+        "690": "Bauwesen"
+      }
+    },
+    "700": {
+      "name": "Künste und Unterhaltung",
+      "subcategories": {
+        "700": "Künste",
+        "710": "Landschafts- und Stadtplanung",
+        "720": "Architektur",
+        "730": "Plastik, Keramik, Metallarbeiten",
+        "740": "Grafik & dekorative Künste",
+        "750": "Malerei",
+        "760": "Druckgrafik & Druckkunst",
+        "770": "Fotografie & computergenerierte Bilder",
+        "780": "Musik",
+        "790": "Freizeitgestaltung & darstellende Künste"
+      }
+    },
+    "800": {
+      "name": "Literatur",
+      "subcategories": {
+        "800": "Literatur",
+        "810": "Amerikanische Literatur in Englisch",
+        "820": "Englische & altenglische Literaturen",
+        "830": "Deutsche & verwandte Literaturen",
+        "840": "Französische & verwandte Literaturen",
+        "850": "Italienische, rumänische & verwandte Literaturen",
+        "860": "Spanische & portugiesische Literaturen",
+        "870": "Lateinische & italische Literaturen",
+        "880": "Klassische griechische & verwandte Literaturen",
+        "890": "Andere Literaturen"
+      }
+    },
+    "900": {
+      "name": "Geschichte und Geografie",
+      "subcategories": {
+        "900": "Geschichte",
+        "910": "Geografie & Reisen",
+        "920": "Biografien & Genealogie",
+        "930": "Geschichte der Alten Welt",
+        "940": "Geschichte Europas",
+        "950": "Geschichte Asiens",
+        "960": "Geschichte Afrikas",
+        "970": "Geschichte Nordamerikas",
+        "980": "Geschichte Südamerikas",
+        "990": "Geschichte anderer Gebiete"
+      }
+    }
+  }
+}
