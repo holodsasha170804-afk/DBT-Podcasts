@@ -9,22 +9,23 @@ export default function SearchPanel(): string {
                 <input name="search" class="search-panel__input" placeholder="Suche in der Publicationen..."/>
                 <button type="submit" class="search-panel__button-search button icon__before icon__before--white-search">Suchen</button> 
             </div>
-            <div class="search-panel__select-categories categories">
-                ${renderCategories()}
+            <div class="search-panel__select-categories categories" data-ts-categories>
+                ${renderCategories("icon__after icon__after--chevron-right")}
+                <ul class="categories__list" data-ts-subcategories-list></ul>
             </div>
         </form>
     </div>
     `
 }
 
-function renderCategories(): string {
+function renderCategories(buttonClasses: string = ''): string {
     return `
-    <ul class="categories__list" data-ts-categories>
+    <ul class="categories__list" data-ts-categories-list>
         ${Object.entries(data.categories)
             .map(([key, category])=> {
                 return `
                     <li class="categories__item">
-                        <button type="button" class="categories__title icon__after icon__after--chevron-right">
+                        <button type="button" class="categories__title ${buttonClasses}" data-ts-categories-item data-category-key="${key}">
                             ${key + ' ' + category.name}
                         </button>
                     </li>

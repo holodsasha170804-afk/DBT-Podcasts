@@ -1,6 +1,7 @@
 import '@/assets/styles/main.scss';
 import App from "@/app/App.ts";
-import CategoriesButton from "@/components/CategoriesButton.ts";
+import SelectCategory from "@/components/SelectCategory.ts";
+import CategoryCollection from "@/components/Category.ts";
 
 const root = document.querySelector('#app');
 
@@ -8,4 +9,5 @@ if (root) {
     root.innerHTML = App();
 }
 
-new CategoriesButton();
+new SelectCategory();
+new CategoryCollection()

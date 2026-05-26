@@ -43,7 +43,7 @@
     &--white-arrow-caret-down-fill{
       &::before {
         background-image: url('../../icons/caret-down-fill.svg');
-        width: rem(18);
+        width: rem(18) !important;
         height: rem(18);
       }
     }
