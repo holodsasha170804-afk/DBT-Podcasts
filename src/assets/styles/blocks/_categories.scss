@@ -2,13 +2,16 @@
 
 
 .categories {
-  display: inline-flex;
+  display: flex;
+  width: fit-content;
+
 
   &__list {
     display: inline-flex;
     flex-direction: column;
     border: var(--border);
     border-radius: rem(15);
+    box-shadow: var(--shadow);
     pointer-events: none;
     overflow: hidden;
     max-height: 0;
@@ -49,7 +52,10 @@
 
     @include hover {
       background-color: var(--color-gray-70);
-      box-shadow: inset 0 -1px 0 var(--color-accent);
+
+      &:not(:last-child) {
+        box-shadow: inset 0 -1px 0 var(--color-accent);;
+      }
     }
   }
 
@@ -58,6 +64,7 @@
     flex-grow: 1;
     height: 100%;
     justify-content: space-between;
+    align-items: center;
     background-color: transparent;
     border: none;
   }
