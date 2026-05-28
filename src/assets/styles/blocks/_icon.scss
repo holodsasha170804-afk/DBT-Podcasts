@@ -10,6 +10,8 @@
       content: '';
       width: 0;
       height: 0;
+      flex-shrink: 0;
+
 
       background-repeat: no-repeat;
       background-position: center;
@@ -43,7 +45,7 @@
     &--white-arrow-caret-down-fill{
       &::before {
         background-image: url('../../icons/caret-down-fill.svg');
-        width: rem(18) !important;
+        width: rem(18);
         height: rem(18);
       }
     }
@@ -53,6 +55,32 @@
         background-image: url('../../icons/search.svg');
         width: rem(19);
         height: rem(19);
+      }
+    }
+
+    &--black-headphones {
+      &::before {
+        background-image: url('../../icons/black-headphones.svg');
+        width: rem(16);
+        height: rem(16);
+      }
+    }
+
+    &--chevron-right {
+      column-gap: rem(10);
+
+      &::before {
+        background-image: url('../../icons/chevron-left.svg');
+        width: rem(16);
+        height: rem(16);
+      }
+    }
+
+    &--yellow-star-fill {
+      &::before {
+        background-image: url('../../icons/yellow-star-fill.svg');
+        width: rem(14);
+        height: rem(14);
       }
     }
   }
@@ -95,7 +123,6 @@
     }
 
     &--chevron-right {
-      column-gap: rem(10);
 
       &::after {
         background-image: url('../../icons/chevron-right.svg');

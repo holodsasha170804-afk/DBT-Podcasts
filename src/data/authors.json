@@ -5,24 +5,127 @@
       "name": "Oleksandr Kholod",
       "language": ["Deutsch", "Englisch", "Russisch", "Ukrainisch"],
       "avatar": "/images/authors/alex-future.jpg",
-      "bio": "Auszubildender zum Fachinformatiker für Anwendungsentwicklung im ersten Ausbildungsjahr",
+      "bio": "Auszubildender zum Fachinformatiker für Anwendungsentwicklung im ersten Ausbildungsjahr. Spezialisiert auf Frontend-Entwicklung und TypeScript.",
       "socials": {
-        "twitter": "https://twitter.com/",
+        "twitter": "https://twitter.com/alexfuture",
         "github": "https://github.com/Aleks1754",
         "website": "https://alexfuture.dev"
       },
-      "createdAt": "21-05-2026"
+      "createdAt": "21.05.2026"
     },
     {
       "id": "0002",
       "name": "Dr. Lena Weber",
       "language": ["Deutsch", "Englisch", "Ungarisch", "Spanisch"],
       "avatar": "/images/authors/lena-weber.jpg",
-      "bio": "Researcher in neuroscience and cognitive systems.",
+      "bio": "Researcher in neuroscience and cognitive systems. PhD von der Universität Heidelberg mit Fokus auf KI und Maschinelles Lernen.",
       "socials": {
+        "github": "https://github.com/LenaWeber",
         "website": "https://lenaresearch.org"
       },
-      "createdAt": "22-05-2026"
+      "createdAt": "22.05.2026"
+    },
+    {
+      "id": "0003",
+      "name": "Marcus Schmidt",
+      "language": ["Deutsch", "Englisch", "Französisch"],
+      "avatar": "/images/authors/marcus-schmidt.jpg",
+      "bio": "Senior Software Architect mit 15+ Jahren Erfahrung in Cloud Computing und DevOps. AWS Certified Solutions Architect.",
+      "socials": {
+        "twitter": "https://twitter.com/marcusschmidt",
+        "github": "https://github.com/MarcusSchmidt",
+        "linkedin": "https://linkedin.com/in/marcusschmidt"
+      },
+      "createdAt": "18.05.2026"
+    },
+    {
+      "id": "0004",
+      "name": "Sofia Müller",
+      "language": ["Deutsch", "Englisch", "Italienisch", "Portugiesisch"],
+      "avatar": "/images/authors/sofia-mueller.jpg",
+      "bio": "Full-Stack Developer und Open Source Enthusiast. Gründerin von mehreren erfolgreichen Startups im Tech-Bereich.",
+      "socials": {
+        "twitter": "https://twitter.com/sofiamueller",
+        "github": "https://github.com/SofiaMueller",
+        "website": "https://sofiamueller.dev"
+      },
+      "createdAt": "20.05.2026"
+    },
+    {
+      "id": "0005",
+      "name": "Dr. Klaus Hoffmann",
+      "language": ["Deutsch", "Englisch", "Schwedisch"],
+      "avatar": "/images/authors/klaus-hoffmann.jpg",
+      "bio": "Professor für Informatik an der TU Berlin. Spezialist für Algorithmik, Datenstrukturen und theoretische Informatik.",
+      "socials": {
+        "twitter": "https://twitter.com/klaus_hoffmann",
+        "website": "https://tu-berlin.de/~hoffmann"
+      },
+      "createdAt": "19.05.2026"
+    },
+    {
+      "id": "0006",
+      "name": "Anna Bergström",
+      "language": ["Deutsch", "Englisch", "Schwedisch", "Norwegisch"],
+      "avatar": "/images/authors/anna-bergstrom.jpg",
+      "bio": "UX/UI Designer und Product Manager. Leidenschaftlich über User Experience und Accessibility im Web.",
+      "socials": {
+        "twitter": "https://twitter.com/annabergstrom",
+        "github": "https://github.com/AnnaBergstrom",
+        "website": "https://annabergstrom.design"
+      },
+      "createdAt": "23.05.2026"
+    },
+    {
+      "id": "0007",
+      "name": "Thomas Krüger",
+      "language": ["Deutsch", "Englisch", "Polnisch"],
+      "avatar": "/images/authors/thomas-kruger.jpg",
+      "bio": "Data Scientist und Machine Learning Engineering. Ex-Google, jetzt bei Zalando. Spezialist für NLP und Deep Learning.",
+      "socials": {
+        "twitter": "https://twitter.com/thomaskruger",
+        "github": "https://github.com/ThomasKruger",
+        "linkedin": "https://linkedin.com/in/thomaskruger"
+      },
+      "createdAt": "17.05.2026"
+    },
+    {
+      "id": "0008",
+      "name": "Elena Rossi",
+      "language": ["Deutsch", "Englisch", "Italienisch", "Spanisch"],
+      "avatar": "/images/authors/elena-rossi.jpg",
+      "bio": "Cybersecurity Expert und Ethical Hacker. Konsultiert für Fortune 500 Unternehmen. OSCP zertifiziert.",
+      "socials": {
+        "twitter": "https://twitter.com/elenarossi_sec",
+        "github": "https://github.com/ElenaRossi",
+        "website": "https://elenarossi.security"
+      },
+      "createdAt": "16.05.2026"
+    },
+    {
+      "id": "0009",
+      "name": "Prof. Dr. Michael Fischer",
+      "language": ["Deutsch", "Englisch", "Niederländisch"],
+      "avatar": "/images/authors/michael-fischer.jpg",
+      "bio": "Pionier in Blockchain und Kryptographie. Leiter des Crypto Lab an der ETH Zürich. 30+ Forschungspapiere veröffentlicht.",
+      "socials": {
+        "twitter": "https://twitter.com/prof_fischer",
+        "website": "https://eth-zurich.ch/~fischer"
+      },
+      "createdAt": "15.05.2026"
+    },
+    {
+      "id": "0010",
+      "name": "Jasmine Patel",
+      "language": ["Deutsch", "Englisch", "Hindi", "Gujarati"],
+      "avatar": "/images/authors/jasmine-patel.jpg",
+      "bio": "DevOps Engineer und Kubernetes Expert. Arbeitet bei Siemens an Cloud-Infrastruktur. CKAD zertifiziert.",
+      "socials": {
+        "twitter": "https://twitter.com/jasmine_devops",
+        "github": "https://github.com/JasminePatel",
+        "linkedin": "https://linkedin.com/in/jasminepatel"
+      },
+      "createdAt": "24.05.2026"
     }
   ]
 }

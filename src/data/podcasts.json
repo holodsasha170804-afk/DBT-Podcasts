@@ -1,0 +1,1768 @@
+{
+  "podcasts": [
+    {
+      "id": "pod_001",
+      "title": "50 Jahre Deutsch als Fremd- und Zweitsprache in Jena",
+      "description": "Hier geht es um Geschichte des Instituts, erzählt aus der persönlichen Erinnerung langjähriger Mitarbeitenden, die seit 1975 bis heute hier gearbeitet haben und teilweise noch heute arbeiten.",
+      "publisher": {
+        "id": "pub_001",
+        "name": "Friedrich-Schiller-Universität Jena",
+        "website": "https://www.uni-jena.de/",
+        "email": "presse@uni-jena.de "
+      },
+      "authorIds": ["0001", "0002"],
+      "publishedAt": "13.10.2025",
+      "language": "Deutsch",
+      "posterUrl": "/images/pod_001.jpg",
+      "category": "400",
+      "subcategory": "410",
+      "ratings": {
+        "average": 4.5,
+        "count": 127,
+        "distribution": {
+          "5": 85,
+          "4": 30,
+          "3": 10,
+          "2": 2,
+          "1": 0
+        }
+      },
+      "comments": [
+        {
+          "id": "com_001",
+          "authorName": "Max Müller",
+          "rating": 5,
+          "text": "Sehr informativ und gut strukturiert!",
+          "createdAt": "13.10.2025"
+        },
+        {
+          "id": "com_002",
+          "authorName": "Anna Schmidt",
+          "rating": 4,
+          "text": "Guter Inhalt, aber manchmal etwas lang.",
+          "createdAt": "2026-05-18"
+        }
+      ],
+      "episodes": [
+        {
+          "id": "ep_001_001",
+          "title": "Ein Gespräch mit Frau Dr. Kuhn",
+          "description": "In dieser Folge interviewen Yuxin Jia, Ha Anh Pham und Jule Altena Dr. Christina Kuhn, akademische Rätin im Hochschuldienst an der Friedrich-Schiller-Universität Jena. Es geht um eine Zeitperiode am Institut DaFZ und IKS durch Mitwirkende. Die Rede wird sein vom Internationalen Master DaFZ, von Interessens- und Forschungsgebieten von Frau Dr. Kuhn und die Chancen, die man hat, wenn man den Master DaFZ studiert! Viel Spaß beim Hören!",
+          "episodeNumber": 1,
+          "season": 1,
+          "interviewerIds": ["0001"],
+          "guestIds": ["0002"],
+          "publishedAt": " 14.10.2025",
+          "duration": 3183,
+          "language": "Deutsch",
+          "posterUrl": "/images/pod_001.jpg",
+          "category": "400",
+          "subcategory": "410",
+          "audioUrl": "",
+          "ratings": {
+            "average": 4.7,
+            "count": 89,
+            "distribution": {
+              "5": 72,
+              "4": 15,
+              "3": 2,
+              "2": 0,
+              "1": 0
+            }
+          },
+          "comments": [
+            {
+              "id": "com_ep_001",
+              "authorName": "Dev Enthusiast",
+              "rating": 5,
+              "text": "Die beste Erklärung von TypeScript, die ich je gehört habe!",
+              "createdAt": "2026-05-22"
+            }
+          ],
+          "tags": ["Hochschulbibliografie", "Gespräch", "DaFZ"]
+        }
+      ]
+    },
+    {
+      "id": "pod_002",
+      "title": "Podcast fLAWless",
+      "description": "Die Studierenden der Rechtswissenschaftlichen Fakultät der Friedrich-Schiller-Universität Jena besprechen im Jura-Podcast fLAWless examensrelevante Gerichtsentscheidungen. Die Judikate werden didaktisch so aufbereitet, dass sie einer juristischen Examensklausur nahekommen. Die Urteile und Beschlüsse werden kritisch hinterfragt und am Ende jeder Folge gibt’s praktische Klausurtipps. Der Podcast richtet sich an Jurastudierende und soll helfen, die aktuelle Rechtsprechung im Blick zu behalten. Die erste Staffel des Podcast beschäftigt sich mit aktuellen grundrechtsrelevanten Entscheidungen des Bundesverfassungsgerichts. Das Projekt wird fachlich von Jun.-Prof. Dr. Anika Klafki betreut. Besonderer Dank gilt Tino Tschiesche vom Multi-Media-Zentrum der Friedrich-Schiller-Universität Jena für die tontechnische Unterstützung.",
+      "publisher": {
+        "id": "pub_002",
+        "name": "Multimediazentrum",
+        "website": "https://www.uni-jena.de/10680/multimediazentrum",
+        "email": "mmz@uni-jena.de"
+      },
+      "authorIds": ["0001", "0004"],
+      "publishedAt": "17.01.2020",
+      "language": "Deutsch",
+      "posterUrl": "/images/pod_002.jpg",
+      "category": "300",
+      "subcategory": "340",
+      "ratings": {
+        "average": 4.5,
+        "count": 127,
+        "distribution": {
+          "5": 85,
+          "4": 30,
+          "3": 10,
+          "2": 2,
+          "1": 0
+        }
+      },
+      "comments": [
+        {
+          "id": "com_001",
+          "authorName": "Max Müller",
+          "rating": 5,
+          "text": "Sehr informativ und gut strukturiert!",
+          "createdAt": "13.10.2025"
+        },
+        {
+          "id": "com_002",
+          "authorName": "Anna Schmidt",
+          "rating": 4,
+          "text": "Guter Inhalt, aber manchmal etwas lang.",
+          "createdAt": "2026-05-18"
+        }
+      ],
+      "episodes": [
+        {
+          "id": "ep_001_001",
+          "title": "Stadionverbotsentscheidung (Art. 3 I GG)",
+          "description": "Anika Klafki und Alessa Stache stellen in dieser Folge fLAWless vor und besprechen die Stadionverbotsentscheidung des Bundesverfassungsgerichts vom 11. April 2018 (E 148, 267). Dabei geht es um die mittelbare Drittwirkung des allgemeinen Gleichheitssatzes nach Art. 3 I GG in Privatrechtsverhältnissen.",
+          "episodeNumber": 1,
+          "season": 1,
+          "interviewerIds": ["0001"],
+          "guestIds": ["0002"],
+          "publishedAt": "01.04.2020",
+          "duration": 840,
+          "language": "Deutsch",
+          "posterUrl": "/images/pod_002.jpg",
+          "category": "300",
+          "subcategory": "340",
+          "audioUrl": "",
+          "ratings": {
+            "average": 4.7,
+            "count": 89,
+            "distribution": {
+              "5": 72,
+              "4": 15,
+              "3": 2,
+              "2": 0,
+              "1": 0
+            }
+          },
+          "comments": [
+            {
+              "id": "com_ep_001",
+              "authorName": "Dev Enthusiast",
+              "rating": 5,
+              "text": "Die beste Erklärung von TypeScript, die ich je gehört habe!",
+              "createdAt": "2026-05-22"
+            }
+          ],
+          "tags": ["Stadionverbotsentscheidung", "Gespräch", "Grundgesetz"]
+        },
+        {
+          "id": "ep_001_001",
+          "title": "Stadionverbotsentscheidung (Art. 3 I GG)",
+          "description": "Anika Klafki und Alessa Stache stellen in dieser Folge fLAWless vor und besprechen die Stadionverbotsentscheidung des Bundesverfassungsgerichts vom 11. April 2018 (E 148, 267). Dabei geht es um die mittelbare Drittwirkung des allgemeinen Gleichheitssatzes nach Art. 3 I GG in Privatrechtsverhältnissen.",
+          "episodeNumber": 1,
+          "season": 1,
+          "interviewerIds": ["0001"],
+          "guestIds": ["0002"],
+          "publishedAt": "01.04.2020",
+          "duration": 840,
+          "language": "Deutsch",
+          "posterUrl": "/images/pod_002.jpg",
+          "category": "300",
+          "subcategory": "340",
+          "audioUrl": "",
+          "ratings": {
+            "average": 4.7,
+            "count": 89,
+            "distribution": {
+              "5": 72,
+              "4": 15,
+              "3": 2,
+              "2": 0,
+              "1": 0
+            }
+          },
+          "comments": [
+            {
+              "id": "com_ep_001",
+              "authorName": "Dev Enthusiast",
+              "rating": 5,
+              "text": "Die beste Erklärung von TypeScript, die ich je gehört habe!",
+              "createdAt": "2026-05-22"
+            }
+          ],
+          "tags": ["Stadionverbotsentscheidung", "Gespräch", "Grundgesetz"]
+        }
+      ]
+    },
+    {
+      "id": "pod_003",
+      "title": "SpacEconomics | Geographie-Podcast",
+      "description": "SpacEconomics: Geographie-Podcast ist ein Podcast der Wirtschaftsgeographie der Friedrich-Schiller-Universität Jena. Wir behandeln Themen rund um die Wirtschaftsgeographie und wenden uns dabei häufig auch Themen aus der allgemeineren Geographie, der Sozialgeographie und verwandten Disziplinen zu. Unser Ziel ist es, das Fach Geographie, die wissenschaftliche Arbeit in dieser Disziplin und das Studium anschaulicher und nachvollziehbarer zu machen. Womit beschäftigen sich GeographInnen, wenn sie von „Wissenstransfer über geographische Distanzen“ reden? Wie können wir (wirtschafts-)geographische Konzepte nutzen, um unser alltägliches Leben zu verstehen? Wie hängen Migration und Innovation in einer Region zusammen? Und warum lohnt sich sogar ein geographischer Blick auf Themen wie z. B. die Entwicklung und Verbreitung von Hip Hop?",
+      "publisher": {
+        "id": "pub_001",
+        "name": "Friedrich-Schiller-Universität Jena",
+        "website": "https://www.uni-jena.de/",
+        "email": "presse@uni-jena.de "
+      },
+      "authorIds": ["0003", "0008"],
+      "publishedAt": " 26.06.2020",
+      "language": "Deutsch",
+      "posterUrl": "/images/pod_003.jpg",
+      "category": "900",
+      "subcategory": "910",
+      "ratings": {
+        "average": 4.8,
+        "count": 127,
+        "distribution": {
+          "5": 85,
+          "4": 30,
+          "3": 10,
+          "2": 2,
+          "1": 0
+        }
+      },
+      "comments": [
+        {
+          "id": "com_001",
+          "authorName": "Max Müller",
+          "rating": 5,
+          "text": "Sehr informativ und gut strukturiert!",
+          "createdAt": "13.10.2025"
+        },
+        {
+          "id": "com_002",
+          "authorName": "Anna Schmidt",
+          "rating": 4,
+          "text": "Guter Inhalt, aber manchmal etwas lang.",
+          "createdAt": "2026-05-18"
+        }
+      ],
+      "episodes": [
+        {
+          "id": "ep_001_001",
+          "title": "Die City-Studie Jena",
+          "description": "In dieser Project-Insights-Folge von SpacEconomics zur City-Studie Jena 2019 sprechen Anika Zorn, Matthias Hannemann und Björn Braunschweig darüber, wie Lehre und Forschung in der Durchführung von PassantInnen-Befragungen verbunden werden, warum blaue Klemmbretter kurz vor der Europawahl die Redebereitschaft der PassantInnen nicht unbedingt erhöhen, welche Ergebnisse der City-Studie sie überrascht haben, warum Interneteinkäufe nicht mehr unbedingt in der Kategorie „mehr als 10 Mal (in meinem bisherigen Leben)“ abgefragt werden sollten und warum Jena für StudentInnen eine so attraktive Stadt ist.  In dieser Project-Insights-Folge von SpacEconomics zur City-Studie Jena 2019 sprechen Anika Zorn, Matthias Hannemann und Björn Braunschweig darüber, wie Lehre und Forschung in der Durchführung von PassantInnen-Befragungen verbunden werden, warum blaue Klemmbretter kurz vor der Europawahl die Redebereitschaft der PassantInnen nicht unbedingt erhöhen, welche Ergebnisse der City-Studie sie überrascht haben, warum Interneteinkäufe nicht mehr unbedingt in der Kategorie „mehr als 10 Mal (in meinem bisherigen Leben)“ abgefragt werden sollten und warum Jena für StudentInnen eine so attraktive Stadt ist. ",
+          "episodeNumber": 1,
+          "season": 1,
+          "interviewerIds": ["0001"],
+          "guestIds": ["0002"],
+          "publishedAt": " 26.06.2020",
+          "duration": 678,
+          "language": "Deutsch",
+          "posterUrl": "/images/pod_003.jpg",
+          "category": "900",
+          "subcategory": "910",
+          "audioUrl": "",
+          "ratings": {
+            "average": 4.7,
+            "count": 89,
+            "distribution": {
+              "5": 72,
+              "4": 15,
+              "3": 2,
+              "2": 0,
+              "1": 0
+            }
+          },
+          "comments": [
+            {
+              "id": "com_ep_001",
+              "authorName": "Dev Enthusiast",
+              "rating": 5,
+              "text": "Die beste Erklärung von TypeScript, die ich je gehört habe!",
+              "createdAt": "2026-05-22"
+            }
+          ],
+          "tags": ["Anthropogeographie", "Humangeographie", "Humangeographie"]
+        },
+        {
+          "id": "ep_001_001",
+          "title": "Stadionverbotsentscheidung (Art. 3 I GG)",
+          "description": "Anika Klafki und Alessa Stache stellen in dieser Folge fLAWless vor und besprechen die Stadionverbotsentscheidung des Bundesverfassungsgerichts vom 11. April 2018 (E 148, 267). Dabei geht es um die mittelbare Drittwirkung des allgemeinen Gleichheitssatzes nach Art. 3 I GG in Privatrechtsverhältnissen.",
+          "episodeNumber": 1,
+          "season": 1,
+          "interviewerIds": ["0001"],
+          "guestIds": ["0002"],
+          "publishedAt": "01.04.2020",
+          "duration": 840,
+          "language": "Deutsch",
+          "posterUrl": "/images/pod_003.jpg",
+          "category": "300",
+          "subcategory": "340",
+          "audioUrl": "",
+          "ratings": {
+            "average": 4.7,
+            "count": 89,
+            "distribution": {
+              "5": 72,
+              "4": 15,
+              "3": 2,
+              "2": 0,
+              "1": 0
+            }
+          },
+          "comments": [
+            {
+              "id": "com_ep_001",
+              "authorName": "Dev Enthusiast",
+              "rating": 5,
+              "text": "Die beste Erklärung von TypeScript, die ich je gehört habe!",
+              "createdAt": "2026-05-22"
+            }
+          ],
+          "tags": ["Stadionverbotsentscheidung", "Gespräch", "Grundgesetz"]
+        }
+      ]
+    },
+    {
+      "id": "pod_004",
+      "title": "Darum China! Der China-Podcast aus Thüringen",
+      "description": "China hat eine lange Geschichte, ist ein großes Reich und stellt etwa ein Fünftel der Weltbevölkerung, ganz zu schweigen von dem rasanten wirtschaftlichen Aufstieg.\n\nUnd gerade darum lohnt es sich, sich mit diesem Land näher auseinanderzusetzen.\n\nIn diesem Podcast interviewen Personen mit Chinabezug und -erfahrung in Thüringen – wieso beschäftigen Sie sich mit China, welche Erfahrung haben Sie mit China und „wie geht China“?\n\nDer Podcast ist Teil des BMBF-geförderten regionalen Aufbaus von China-Kompetenz in der Wissenschaft",
+      "publisher": {
+        "id": "pub_001",
+        "name": "Friedrich-Schiller-Universität Jena",
+        "website": "https://www.uni-jena.de/",
+        "email": "presse@uni-jena.de "
+      },
+      "authorIds": ["0006", "0002"],
+      "publishedAt": "01.10.2024",
+      "language": "Deutsch",
+      "posterUrl": "/images/pod_004.jpg",
+      "category": "000",
+      "subcategory": "000",
+      "ratings": {
+        "average": 4.4,
+        "count": 127,
+        "distribution": {
+          "5": 85,
+          "4": 30,
+          "3": 10,
+          "2": 2,
+          "1": 0
+        }
+      },
+      "comments": [
+        {
+          "id": "com_001",
+          "authorName": "Max Müller",
+          "rating": 5,
+          "text": "Sehr informativ und gut strukturiert!",
+          "createdAt": "13.10.2025"
+        },
+        {
+          "id": "com_002",
+          "authorName": "Anna Schmidt",
+          "rating": 4,
+          "text": "Guter Inhalt, aber manchmal etwas lang.",
+          "createdAt": "2026-05-18"
+        }
+      ],
+      "episodes": [
+        {
+          "id": "ep_001_001",
+          "title": "Stadionverbotsentscheidung (Art. 3 I GG)",
+          "description": "Anika Klafki und Alessa Stache stellen in dieser Folge fLAWless vor und besprechen die Stadionverbotsentscheidung des Bundesverfassungsgerichts vom 11. April 2018 (E 148, 267). Dabei geht es um die mittelbare Drittwirkung des allgemeinen Gleichheitssatzes nach Art. 3 I GG in Privatrechtsverhältnissen.",
+          "episodeNumber": 1,
+          "season": 1,
+          "interviewerIds": ["0001"],
+          "guestIds": ["0002"],
+          "publishedAt": "01.04.2020",
+          "duration": 840,
+          "language": "Deutsch",
+          "posterUrl": "/images/pod_002.jpg",
+          "category": "300",
+          "subcategory": "340",
+          "audioUrl": "",
+          "ratings": {
+            "average": 4.7,
+            "count": 89,
+            "distribution": {
+              "5": 72,
+              "4": 15,
+              "3": 2,
+              "2": 0,
+              "1": 0
+            }
+          },
+          "comments": [
+            {
+              "id": "com_ep_001",
+              "authorName": "Dev Enthusiast",
+              "rating": 5,
+              "text": "Die beste Erklärung von TypeScript, die ich je gehört habe!",
+              "createdAt": "2026-05-22"
+            }
+          ],
+          "tags": ["Stadionverbotsentscheidung", "Gespräch", "Grundgesetz"]
+        },
+        {
+          "id": "ep_001_001",
+          "title": "Stadionverbotsentscheidung (Art. 3 I GG)",
+          "description": "Anika Klafki und Alessa Stache stellen in dieser Folge fLAWless vor und besprechen die Stadionverbotsentscheidung des Bundesverfassungsgerichts vom 11. April 2018 (E 148, 267). Dabei geht es um die mittelbare Drittwirkung des allgemeinen Gleichheitssatzes nach Art. 3 I GG in Privatrechtsverhältnissen.",
+          "episodeNumber": 1,
+          "season": 1,
+          "interviewerIds": ["0001"],
+          "guestIds": ["0002"],
+          "publishedAt": "01.04.2020",
+          "duration": 840,
+          "language": "Deutsch",
+          "posterUrl": "/images/pod_002.jpg",
+          "category": "300",
+          "subcategory": "340",
+          "audioUrl": "",
+          "ratings": {
+            "average": 4.7,
+            "count": 89,
+            "distribution": {
+              "5": 72,
+              "4": 15,
+              "3": 2,
+              "2": 0,
+              "1": 0
+            }
+          },
+          "comments": [
+            {
+              "id": "com_ep_001",
+              "authorName": "Dev Enthusiast",
+              "rating": 5,
+              "text": "Die beste Erklärung von TypeScript, die ich je gehört habe!",
+              "createdAt": "2026-05-22"
+            }
+          ],
+          "tags": ["Stadionverbotsentscheidung", "Gespräch", "Grundgesetz"]
+        },
+        {
+          "id": "ep_001_001",
+          "title": "Stadionverbotsentscheidung (Art. 3 I GG)",
+          "description": "Anika Klafki und Alessa Stache stellen in dieser Folge fLAWless vor und besprechen die Stadionverbotsentscheidung des Bundesverfassungsgerichts vom 11. April 2018 (E 148, 267). Dabei geht es um die mittelbare Drittwirkung des allgemeinen Gleichheitssatzes nach Art. 3 I GG in Privatrechtsverhältnissen.",
+          "episodeNumber": 1,
+          "season": 1,
+          "interviewerIds": ["0001"],
+          "guestIds": ["0002"],
+          "publishedAt": "01.04.2020",
+          "duration": 840,
+          "language": "Deutsch",
+          "posterUrl": "/images/pod_002.jpg",
+          "category": "300",
+          "subcategory": "340",
+          "audioUrl": "",
+          "ratings": {
+            "average": 4.7,
+            "count": 89,
+            "distribution": {
+              "5": 72,
+              "4": 15,
+              "3": 2,
+              "2": 0,
+              "1": 0
+            }
+          },
+          "comments": [
+            {
+              "id": "com_ep_001",
+              "authorName": "Dev Enthusiast",
+              "rating": 5,
+              "text": "Die beste Erklärung von TypeScript, die ich je gehört habe!",
+              "createdAt": "2026-05-22"
+            }
+          ],
+          "tags": ["Stadionverbotsentscheidung", "Gespräch", "Grundgesetz"]
+        },
+        {
+          "id": "ep_001_001",
+          "title": "Stadionverbotsentscheidung (Art. 3 I GG)",
+          "description": "Anika Klafki und Alessa Stache stellen in dieser Folge fLAWless vor und besprechen die Stadionverbotsentscheidung des Bundesverfassungsgerichts vom 11. April 2018 (E 148, 267). Dabei geht es um die mittelbare Drittwirkung des allgemeinen Gleichheitssatzes nach Art. 3 I GG in Privatrechtsverhältnissen.",
+          "episodeNumber": 1,
+          "season": 1,
+          "interviewerIds": ["0001"],
+          "guestIds": ["0002"],
+          "publishedAt": "01.04.2020",
+          "duration": 840,
+          "language": "Deutsch",
+          "posterUrl": "/images/pod_002.jpg",
+          "category": "300",
+          "subcategory": "340",
+          "audioUrl": "",
+          "ratings": {
+            "average": 4.7,
+            "count": 89,
+            "distribution": {
+              "5": 72,
+              "4": 15,
+              "3": 2,
+              "2": 0,
+              "1": 0
+            }
+          },
+          "comments": [
+            {
+              "id": "com_ep_001",
+              "authorName": "Dev Enthusiast",
+              "rating": 5,
+              "text": "Die beste Erklärung von TypeScript, die ich je gehört habe!",
+              "createdAt": "2026-05-22"
+            }
+          ],
+          "tags": ["Stadionverbotsentscheidung", "Gespräch", "Grundgesetz"]
+        },
+        {
+          "id": "ep_001_001",
+          "title": "Stadionverbotsentscheidung (Art. 3 I GG)",
+          "description": "Anika Klafki und Alessa Stache stellen in dieser Folge fLAWless vor und besprechen die Stadionverbotsentscheidung des Bundesverfassungsgerichts vom 11. April 2018 (E 148, 267). Dabei geht es um die mittelbare Drittwirkung des allgemeinen Gleichheitssatzes nach Art. 3 I GG in Privatrechtsverhältnissen.",
+          "episodeNumber": 1,
+          "season": 1,
+          "interviewerIds": ["0001"],
+          "guestIds": ["0002"],
+          "publishedAt": "01.04.2020",
+          "duration": 840,
+          "language": "Deutsch",
+          "posterUrl": "/images/pod_002.jpg",
+          "category": "300",
+          "subcategory": "340",
+          "audioUrl": "",
+          "ratings": {
+            "average": 4.7,
+            "count": 89,
+            "distribution": {
+              "5": 72,
+              "4": 15,
+              "3": 2,
+              "2": 0,
+              "1": 0
+            }
+          },
+          "comments": [
+            {
+              "id": "com_ep_001",
+              "authorName": "Dev Enthusiast",
+              "rating": 5,
+              "text": "Die beste Erklärung von TypeScript, die ich je gehört habe!",
+              "createdAt": "2026-05-22"
+            }
+          ],
+          "tags": ["Stadionverbotsentscheidung", "Gespräch", "Grundgesetz"]
+        },
+        {
+          "id": "ep_001_001",
+          "title": "Stadionverbotsentscheidung (Art. 3 I GG)",
+          "description": "Anika Klafki und Alessa Stache stellen in dieser Folge fLAWless vor und besprechen die Stadionverbotsentscheidung des Bundesverfassungsgerichts vom 11. April 2018 (E 148, 267). Dabei geht es um die mittelbare Drittwirkung des allgemeinen Gleichheitssatzes nach Art. 3 I GG in Privatrechtsverhältnissen.",
+          "episodeNumber": 1,
+          "season": 1,
+          "interviewerIds": ["0001"],
+          "guestIds": ["0002"],
+          "publishedAt": "01.04.2020",
+          "duration": 840,
+          "language": "Deutsch",
+          "posterUrl": "/images/pod_002.jpg",
+          "category": "300",
+          "subcategory": "340",
+          "audioUrl": "",
+          "ratings": {
+            "average": 4.7,
+            "count": 89,
+            "distribution": {
+              "5": 72,
+              "4": 15,
+              "3": 2,
+              "2": 0,
+              "1": 0
+            }
+          },
+          "comments": [
+            {
+              "id": "com_ep_001",
+              "authorName": "Dev Enthusiast",
+              "rating": 5,
+              "text": "Die beste Erklärung von TypeScript, die ich je gehört habe!",
+              "createdAt": "2026-05-22"
+            }
+          ],
+          "tags": ["Stadionverbotsentscheidung", "Gespräch", "Grundgesetz"]
+        },
+        {
+          "id": "ep_001_001",
+          "title": "Stadionverbotsentscheidung (Art. 3 I GG)",
+          "description": "Anika Klafki und Alessa Stache stellen in dieser Folge fLAWless vor und besprechen die Stadionverbotsentscheidung des Bundesverfassungsgerichts vom 11. April 2018 (E 148, 267). Dabei geht es um die mittelbare Drittwirkung des allgemeinen Gleichheitssatzes nach Art. 3 I GG in Privatrechtsverhältnissen.",
+          "episodeNumber": 1,
+          "season": 1,
+          "interviewerIds": ["0001"],
+          "guestIds": ["0002"],
+          "publishedAt": "01.04.2020",
+          "duration": 840,
+          "language": "Deutsch",
+          "posterUrl": "/images/pod_002.jpg",
+          "category": "300",
+          "subcategory": "340",
+          "audioUrl": "",
+          "ratings": {
+            "average": 4.7,
+            "count": 89,
+            "distribution": {
+              "5": 72,
+              "4": 15,
+              "3": 2,
+              "2": 0,
+              "1": 0
+            }
+          },
+          "comments": [
+            {
+              "id": "com_ep_001",
+              "authorName": "Dev Enthusiast",
+              "rating": 5,
+              "text": "Die beste Erklärung von TypeScript, die ich je gehört habe!",
+              "createdAt": "2026-05-22"
+            }
+          ],
+          "tags": ["Stadionverbotsentscheidung", "Gespräch", "Grundgesetz"]
+        }
+      ]
+    },
+    {
+      "id": "pod_005",
+      "title": "Leadership Podcast",
+      "description": "Was macht gutes Leadership aus? Kann man es lernen? Oder wird man etwa als Leader geboren? (Achtung, Spoiler: wird man(n) nicht).\n\nIm Rahmen meines Seminars geben Student*innen des Masterstudiengangs Psychologie in Arbeit, Bildung und Gesellschaft der Friedrich-Schiller-Universität Jena Antwort auf diese und weitere Fragen zum Thema Leadership. Die Podcast-Reihe richtet sich an alle Interessierte für das Thema Führung – Laien, sowie Personen mit Erfahrung.\n\nUnser Podcast startet mit den Grundlagen für die neue Führungstheorie und lehrt zunächst das Konzept der sozialen Identität. Die darauffolgenden Podcasts vertiefen das Wissen über die neue Art von Leadership und geben praktische Hinweise, wie die Aufgaben, die auf einen Leader zukommen, umgesetzt werden können.",
+      "publisher": {
+        "id": "pub_002",
+        "name": "Multimediazentrum",
+        "website": "https://www.uni-jena.de/10680/multimediazentrum",
+        "email": "mmz@uni-jena.de"
+      },
+      "authorIds": ["0009", "0008"],
+      "publishedAt": "09.04.2021",
+      "language": "Deutsch",
+      "posterUrl": "/images/pod_005.jpg",
+      "category": "100",
+      "subcategory": "150",
+      "ratings": {
+        "average": 3.9,
+        "count": 127,
+        "distribution": {
+          "5": 85,
+          "4": 30,
+          "3": 10,
+          "2": 2,
+          "1": 0
+        }
+      },
+      "comments": [
+        {
+          "id": "com_001",
+          "authorName": "Max Müller",
+          "rating": 5,
+          "text": "Sehr informativ und gut strukturiert!",
+          "createdAt": "13.10.2025"
+        },
+        {
+          "id": "com_002",
+          "authorName": "Anna Schmidt",
+          "rating": 4,
+          "text": "Guter Inhalt, aber manchmal etwas lang.",
+          "createdAt": "2026-05-18"
+        }
+      ],
+      "episodes": [
+        {
+          "id": "ep_001_001",
+          "title": "Stadionverbotsentscheidung (Art. 3 I GG)",
+          "description": "Anika Klafki und Alessa Stache stellen in dieser Folge fLAWless vor und besprechen die Stadionverbotsentscheidung des Bundesverfassungsgerichts vom 11. April 2018 (E 148, 267). Dabei geht es um die mittelbare Drittwirkung des allgemeinen Gleichheitssatzes nach Art. 3 I GG in Privatrechtsverhältnissen.",
+          "episodeNumber": 1,
+          "season": 1,
+          "interviewerIds": ["0001"],
+          "guestIds": ["0002"],
+          "publishedAt": "01.04.2020",
+          "duration": 840,
+          "language": "Deutsch",
+          "posterUrl": "/images/pod_002.jpg",
+          "category": "300",
+          "subcategory": "340",
+          "audioUrl": "",
+          "ratings": {
+            "average": 4.7,
+            "count": 89,
+            "distribution": {
+              "5": 72,
+              "4": 15,
+              "3": 2,
+              "2": 0,
+              "1": 0
+            }
+          },
+          "comments": [
+            {
+              "id": "com_ep_001",
+              "authorName": "Dev Enthusiast",
+              "rating": 5,
+              "text": "Die beste Erklärung von TypeScript, die ich je gehört habe!",
+              "createdAt": "2026-05-22"
+            }
+          ],
+          "tags": ["Stadionverbotsentscheidung", "Gespräch", "Grundgesetz"]
+        },
+        {
+          "id": "ep_001_001",
+          "title": "Stadionverbotsentscheidung (Art. 3 I GG)",
+          "description": "Anika Klafki und Alessa Stache stellen in dieser Folge fLAWless vor und besprechen die Stadionverbotsentscheidung des Bundesverfassungsgerichts vom 11. April 2018 (E 148, 267). Dabei geht es um die mittelbare Drittwirkung des allgemeinen Gleichheitssatzes nach Art. 3 I GG in Privatrechtsverhältnissen.",
+          "episodeNumber": 1,
+          "season": 1,
+          "interviewerIds": ["0001"],
+          "guestIds": ["0002"],
+          "publishedAt": "01.04.2020",
+          "duration": 840,
+          "language": "Deutsch",
+          "posterUrl": "/images/pod_002.jpg",
+          "category": "300",
+          "subcategory": "340",
+          "audioUrl": "",
+          "ratings": {
+            "average": 4.7,
+            "count": 89,
+            "distribution": {
+              "5": 72,
+              "4": 15,
+              "3": 2,
+              "2": 0,
+              "1": 0
+            }
+          },
+          "comments": [
+            {
+              "id": "com_ep_001",
+              "authorName": "Dev Enthusiast",
+              "rating": 5,
+              "text": "Die beste Erklärung von TypeScript, die ich je gehört habe!",
+              "createdAt": "2026-05-22"
+            }
+          ],
+          "tags": ["Stadionverbotsentscheidung", "Gespräch", "Grundgesetz"]
+        },
+        {
+          "id": "ep_001_001",
+          "title": "Stadionverbotsentscheidung (Art. 3 I GG)",
+          "description": "Anika Klafki und Alessa Stache stellen in dieser Folge fLAWless vor und besprechen die Stadionverbotsentscheidung des Bundesverfassungsgerichts vom 11. April 2018 (E 148, 267). Dabei geht es um die mittelbare Drittwirkung des allgemeinen Gleichheitssatzes nach Art. 3 I GG in Privatrechtsverhältnissen.",
+          "episodeNumber": 1,
+          "season": 1,
+          "interviewerIds": ["0001"],
+          "guestIds": ["0002"],
+          "publishedAt": "01.04.2020",
+          "duration": 840,
+          "language": "Deutsch",
+          "posterUrl": "/images/pod_002.jpg",
+          "category": "300",
+          "subcategory": "340",
+          "audioUrl": "",
+          "ratings": {
+            "average": 4.7,
+            "count": 89,
+            "distribution": {
+              "5": 72,
+              "4": 15,
+              "3": 2,
+              "2": 0,
+              "1": 0
+            }
+          },
+          "comments": [
+            {
+              "id": "com_ep_001",
+              "authorName": "Dev Enthusiast",
+              "rating": 5,
+              "text": "Die beste Erklärung von TypeScript, die ich je gehört habe!",
+              "createdAt": "2026-05-22"
+            }
+          ],
+          "tags": ["Stadionverbotsentscheidung", "Gespräch", "Grundgesetz"]
+        },
+        {
+          "id": "ep_001_001",
+          "title": "Stadionverbotsentscheidung (Art. 3 I GG)",
+          "description": "Anika Klafki und Alessa Stache stellen in dieser Folge fLAWless vor und besprechen die Stadionverbotsentscheidung des Bundesverfassungsgerichts vom 11. April 2018 (E 148, 267). Dabei geht es um die mittelbare Drittwirkung des allgemeinen Gleichheitssatzes nach Art. 3 I GG in Privatrechtsverhältnissen.",
+          "episodeNumber": 1,
+          "season": 1,
+          "interviewerIds": ["0001"],
+          "guestIds": ["0002"],
+          "publishedAt": "01.04.2020",
+          "duration": 840,
+          "language": "Deutsch",
+          "posterUrl": "/images/pod_002.jpg",
+          "category": "300",
+          "subcategory": "340",
+          "audioUrl": "",
+          "ratings": {
+            "average": 4.7,
+            "count": 89,
+            "distribution": {
+              "5": 72,
+              "4": 15,
+              "3": 2,
+              "2": 0,
+              "1": 0
+            }
+          },
+          "comments": [
+            {
+              "id": "com_ep_001",
+              "authorName": "Dev Enthusiast",
+              "rating": 5,
+              "text": "Die beste Erklärung von TypeScript, die ich je gehört habe!",
+              "createdAt": "2026-05-22"
+            }
+          ],
+          "tags": ["Stadionverbotsentscheidung", "Gespräch", "Grundgesetz"]
+        },
+        {
+          "id": "ep_001_001",
+          "title": "Stadionverbotsentscheidung (Art. 3 I GG)",
+          "description": "Anika Klafki und Alessa Stache stellen in dieser Folge fLAWless vor und besprechen die Stadionverbotsentscheidung des Bundesverfassungsgerichts vom 11. April 2018 (E 148, 267). Dabei geht es um die mittelbare Drittwirkung des allgemeinen Gleichheitssatzes nach Art. 3 I GG in Privatrechtsverhältnissen.",
+          "episodeNumber": 1,
+          "season": 1,
+          "interviewerIds": ["0001"],
+          "guestIds": ["0002"],
+          "publishedAt": "01.04.2020",
+          "duration": 840,
+          "language": "Deutsch",
+          "posterUrl": "/images/pod_002.jpg",
+          "category": "300",
+          "subcategory": "340",
+          "audioUrl": "",
+          "ratings": {
+            "average": 4.7,
+            "count": 89,
+            "distribution": {
+              "5": 72,
+              "4": 15,
+              "3": 2,
+              "2": 0,
+              "1": 0
+            }
+          },
+          "comments": [
+            {
+              "id": "com_ep_001",
+              "authorName": "Dev Enthusiast",
+              "rating": 5,
+              "text": "Die beste Erklärung von TypeScript, die ich je gehört habe!",
+              "createdAt": "2026-05-22"
+            }
+          ],
+          "tags": ["Stadionverbotsentscheidung", "Gespräch", "Grundgesetz"]
+        },
+        {
+          "id": "ep_001_001",
+          "title": "Stadionverbotsentscheidung (Art. 3 I GG)",
+          "description": "Anika Klafki und Alessa Stache stellen in dieser Folge fLAWless vor und besprechen die Stadionverbotsentscheidung des Bundesverfassungsgerichts vom 11. April 2018 (E 148, 267). Dabei geht es um die mittelbare Drittwirkung des allgemeinen Gleichheitssatzes nach Art. 3 I GG in Privatrechtsverhältnissen.",
+          "episodeNumber": 1,
+          "season": 1,
+          "interviewerIds": ["0001"],
+          "guestIds": ["0002"],
+          "publishedAt": "01.04.2020",
+          "duration": 840,
+          "language": "Deutsch",
+          "posterUrl": "/images/pod_002.jpg",
+          "category": "300",
+          "subcategory": "340",
+          "audioUrl": "",
+          "ratings": {
+            "average": 4.7,
+            "count": 89,
+            "distribution": {
+              "5": 72,
+              "4": 15,
+              "3": 2,
+              "2": 0,
+              "1": 0
+            }
+          },
+          "comments": [
+            {
+              "id": "com_ep_001",
+              "authorName": "Dev Enthusiast",
+              "rating": 5,
+              "text": "Die beste Erklärung von TypeScript, die ich je gehört habe!",
+              "createdAt": "2026-05-22"
+            }
+          ],
+          "tags": ["Stadionverbotsentscheidung", "Gespräch", "Grundgesetz"]
+        },
+        {
+          "id": "ep_001_001",
+          "title": "Stadionverbotsentscheidung (Art. 3 I GG)",
+          "description": "Anika Klafki und Alessa Stache stellen in dieser Folge fLAWless vor und besprechen die Stadionverbotsentscheidung des Bundesverfassungsgerichts vom 11. April 2018 (E 148, 267). Dabei geht es um die mittelbare Drittwirkung des allgemeinen Gleichheitssatzes nach Art. 3 I GG in Privatrechtsverhältnissen.",
+          "episodeNumber": 1,
+          "season": 1,
+          "interviewerIds": ["0001"],
+          "guestIds": ["0002"],
+          "publishedAt": "01.04.2020",
+          "duration": 840,
+          "language": "Deutsch",
+          "posterUrl": "/images/pod_002.jpg",
+          "category": "300",
+          "subcategory": "340",
+          "audioUrl": "",
+          "ratings": {
+            "average": 4.7,
+            "count": 89,
+            "distribution": {
+              "5": 72,
+              "4": 15,
+              "3": 2,
+              "2": 0,
+              "1": 0
+            }
+          },
+          "comments": [
+            {
+              "id": "com_ep_001",
+              "authorName": "Dev Enthusiast",
+              "rating": 5,
+              "text": "Die beste Erklärung von TypeScript, die ich je gehört habe!",
+              "createdAt": "2026-05-22"
+            }
+          ],
+          "tags": ["Stadionverbotsentscheidung", "Gespräch", "Grundgesetz"]
+        },
+        {
+          "id": "ep_001_001",
+          "title": "Stadionverbotsentscheidung (Art. 3 I GG)",
+          "description": "Anika Klafki und Alessa Stache stellen in dieser Folge fLAWless vor und besprechen die Stadionverbotsentscheidung des Bundesverfassungsgerichts vom 11. April 2018 (E 148, 267). Dabei geht es um die mittelbare Drittwirkung des allgemeinen Gleichheitssatzes nach Art. 3 I GG in Privatrechtsverhältnissen.",
+          "episodeNumber": 1,
+          "season": 1,
+          "interviewerIds": ["0001"],
+          "guestIds": ["0002"],
+          "publishedAt": "01.04.2020",
+          "duration": 840,
+          "language": "Deutsch",
+          "posterUrl": "/images/pod_002.jpg",
+          "category": "300",
+          "subcategory": "340",
+          "audioUrl": "",
+          "ratings": {
+            "average": 4.7,
+            "count": 89,
+            "distribution": {
+              "5": 72,
+              "4": 15,
+              "3": 2,
+              "2": 0,
+              "1": 0
+            }
+          },
+          "comments": [
+            {
+              "id": "com_ep_001",
+              "authorName": "Dev Enthusiast",
+              "rating": 5,
+              "text": "Die beste Erklärung von TypeScript, die ich je gehört habe!",
+              "createdAt": "2026-05-22"
+            }
+          ],
+          "tags": ["Stadionverbotsentscheidung", "Gespräch", "Grundgesetz"]
+        },
+        {
+          "id": "ep_001_001",
+          "title": "Stadionverbotsentscheidung (Art. 3 I GG)",
+          "description": "Anika Klafki und Alessa Stache stellen in dieser Folge fLAWless vor und besprechen die Stadionverbotsentscheidung des Bundesverfassungsgerichts vom 11. April 2018 (E 148, 267). Dabei geht es um die mittelbare Drittwirkung des allgemeinen Gleichheitssatzes nach Art. 3 I GG in Privatrechtsverhältnissen.",
+          "episodeNumber": 1,
+          "season": 1,
+          "interviewerIds": ["0001"],
+          "guestIds": ["0002"],
+          "publishedAt": "01.04.2020",
+          "duration": 840,
+          "language": "Deutsch",
+          "posterUrl": "/images/pod_002.jpg",
+          "category": "300",
+          "subcategory": "340",
+          "audioUrl": "",
+          "ratings": {
+            "average": 4.7,
+            "count": 89,
+            "distribution": {
+              "5": 72,
+              "4": 15,
+              "3": 2,
+              "2": 0,
+              "1": 0
+            }
+          },
+          "comments": [
+            {
+              "id": "com_ep_001",
+              "authorName": "Dev Enthusiast",
+              "rating": 5,
+              "text": "Die beste Erklärung von TypeScript, die ich je gehört habe!",
+              "createdAt": "2026-05-22"
+            }
+          ],
+          "tags": ["Stadionverbotsentscheidung", "Gespräch", "Grundgesetz"]
+        },
+        {
+          "id": "ep_001_001",
+          "title": "Stadionverbotsentscheidung (Art. 3 I GG)",
+          "description": "Anika Klafki und Alessa Stache stellen in dieser Folge fLAWless vor und besprechen die Stadionverbotsentscheidung des Bundesverfassungsgerichts vom 11. April 2018 (E 148, 267). Dabei geht es um die mittelbare Drittwirkung des allgemeinen Gleichheitssatzes nach Art. 3 I GG in Privatrechtsverhältnissen.",
+          "episodeNumber": 1,
+          "season": 1,
+          "interviewerIds": ["0001"],
+          "guestIds": ["0002"],
+          "publishedAt": "01.04.2020",
+          "duration": 840,
+          "language": "Deutsch",
+          "posterUrl": "/images/pod_002.jpg",
+          "category": "300",
+          "subcategory": "340",
+          "audioUrl": "",
+          "ratings": {
+            "average": 4.7,
+            "count": 89,
+            "distribution": {
+              "5": 72,
+              "4": 15,
+              "3": 2,
+              "2": 0,
+              "1": 0
+            }
+          },
+          "comments": [
+            {
+              "id": "com_ep_001",
+              "authorName": "Dev Enthusiast",
+              "rating": 5,
+              "text": "Die beste Erklärung von TypeScript, die ich je gehört habe!",
+              "createdAt": "2026-05-22"
+            }
+          ],
+          "tags": ["Stadionverbotsentscheidung", "Gespräch", "Grundgesetz"]
+        }
+      ]
+    },
+    {
+      "id": "pod_002",
+      "title": "Podcast fLAWless",
+      "description": "Die Studierenden der Rechtswissenschaftlichen Fakultät der Friedrich-Schiller-Universität Jena besprechen im Jura-Podcast fLAWless examensrelevante Gerichtsentscheidungen. Die Judikate werden didaktisch so aufbereitet, dass sie einer juristischen Examensklausur nahekommen. Die Urteile und Beschlüsse werden kritisch hinterfragt und am Ende jeder Folge gibt’s praktische Klausurtipps. Der Podcast richtet sich an Jurastudierende und soll helfen, die aktuelle Rechtsprechung im Blick zu behalten. Die erste Staffel des Podcast beschäftigt sich mit aktuellen grundrechtsrelevanten Entscheidungen des Bundesverfassungsgerichts. Das Projekt wird fachlich von Jun.-Prof. Dr. Anika Klafki betreut. Besonderer Dank gilt Tino Tschiesche vom Multi-Media-Zentrum der Friedrich-Schiller-Universität Jena für die tontechnische Unterstützung.",
+      "publisher": {
+        "id": "pub_002",
+        "name": "Multimediazentrum",
+        "website": "https://www.uni-jena.de/10680/multimediazentrum",
+        "email": "mmz@uni-jena.de"
+      },
+      "authorIds": ["0001", "0002"],
+      "publishedAt": "17.01.2020",
+      "language": "Deutsch",
+      "posterUrl": "/images/pod_002.jpg",
+      "category": "300",
+      "subcategory": "340",
+      "ratings": {
+        "average": 4.5,
+        "count": 127,
+        "distribution": {
+          "5": 85,
+          "4": 30,
+          "3": 10,
+          "2": 2,
+          "1": 0
+        }
+      },
+      "comments": [
+        {
+          "id": "com_001",
+          "authorName": "Max Müller",
+          "rating": 5,
+          "text": "Sehr informativ und gut strukturiert!",
+          "createdAt": "13.10.2025"
+        },
+        {
+          "id": "com_002",
+          "authorName": "Anna Schmidt",
+          "rating": 4,
+          "text": "Guter Inhalt, aber manchmal etwas lang.",
+          "createdAt": "2026-05-18"
+        }
+      ],
+      "episodes": [
+        {
+          "id": "ep_001_001",
+          "title": "Stadionverbotsentscheidung (Art. 3 I GG)",
+          "description": "Anika Klafki und Alessa Stache stellen in dieser Folge fLAWless vor und besprechen die Stadionverbotsentscheidung des Bundesverfassungsgerichts vom 11. April 2018 (E 148, 267). Dabei geht es um die mittelbare Drittwirkung des allgemeinen Gleichheitssatzes nach Art. 3 I GG in Privatrechtsverhältnissen.",
+          "episodeNumber": 1,
+          "season": 1,
+          "interviewerIds": ["0001"],
+          "guestIds": ["0002"],
+          "publishedAt": "01.04.2020",
+          "duration": 840,
+          "language": "Deutsch",
+          "posterUrl": "/images/pod_002.jpg",
+          "category": "300",
+          "subcategory": "340",
+          "audioUrl": "",
+          "ratings": {
+            "average": 4.7,
+            "count": 89,
+            "distribution": {
+              "5": 72,
+              "4": 15,
+              "3": 2,
+              "2": 0,
+              "1": 0
+            }
+          },
+          "comments": [
+            {
+              "id": "com_ep_001",
+              "authorName": "Dev Enthusiast",
+              "rating": 5,
+              "text": "Die beste Erklärung von TypeScript, die ich je gehört habe!",
+              "createdAt": "2026-05-22"
+            }
+          ],
+          "tags": ["Stadionverbotsentscheidung", "Gespräch", "Grundgesetz"]
+        },
+        {
+          "id": "ep_001_001",
+          "title": "Stadionverbotsentscheidung (Art. 3 I GG)",
+          "description": "Anika Klafki und Alessa Stache stellen in dieser Folge fLAWless vor und besprechen die Stadionverbotsentscheidung des Bundesverfassungsgerichts vom 11. April 2018 (E 148, 267). Dabei geht es um die mittelbare Drittwirkung des allgemeinen Gleichheitssatzes nach Art. 3 I GG in Privatrechtsverhältnissen.",
+          "episodeNumber": 1,
+          "season": 1,
+          "interviewerIds": ["0001"],
+          "guestIds": ["0002"],
+          "publishedAt": "01.04.2020",
+          "duration": 840,
+          "language": "Deutsch",
+          "posterUrl": "/images/pod_002.jpg",
+          "category": "300",
+          "subcategory": "340",
+          "audioUrl": "",
+          "ratings": {
+            "average": 4.7,
+            "count": 89,
+            "distribution": {
+              "5": 72,
+              "4": 15,
+              "3": 2,
+              "2": 0,
+              "1": 0
+            }
+          },
+          "comments": [
+            {
+              "id": "com_ep_001",
+              "authorName": "Dev Enthusiast",
+              "rating": 5,
+              "text": "Die beste Erklärung von TypeScript, die ich je gehört habe!",
+              "createdAt": "2026-05-22"
+            }
+          ],
+          "tags": ["Stadionverbotsentscheidung", "Gespräch", "Grundgesetz"]
+        }
+      ]
+    },
+    {
+      "id": "pod_002",
+      "title": "Podcast fLAWless",
+      "description": "Die Studierenden der Rechtswissenschaftlichen Fakultät der Friedrich-Schiller-Universität Jena besprechen im Jura-Podcast fLAWless examensrelevante Gerichtsentscheidungen. Die Judikate werden didaktisch so aufbereitet, dass sie einer juristischen Examensklausur nahekommen. Die Urteile und Beschlüsse werden kritisch hinterfragt und am Ende jeder Folge gibt’s praktische Klausurtipps. Der Podcast richtet sich an Jurastudierende und soll helfen, die aktuelle Rechtsprechung im Blick zu behalten. Die erste Staffel des Podcast beschäftigt sich mit aktuellen grundrechtsrelevanten Entscheidungen des Bundesverfassungsgerichts. Das Projekt wird fachlich von Jun.-Prof. Dr. Anika Klafki betreut. Besonderer Dank gilt Tino Tschiesche vom Multi-Media-Zentrum der Friedrich-Schiller-Universität Jena für die tontechnische Unterstützung.",
+      "publisher": {
+        "id": "pub_002",
+        "name": "Multimediazentrum",
+        "website": "https://www.uni-jena.de/10680/multimediazentrum",
+        "email": "mmz@uni-jena.de"
+      },
+      "authorIds": ["0001", "0002"],
+      "publishedAt": "17.01.2020",
+      "language": "Deutsch",
+      "posterUrl": "/images/pod_002.jpg",
+      "category": "300",
+      "subcategory": "340",
+      "ratings": {
+        "average": 4.5,
+        "count": 127,
+        "distribution": {
+          "5": 85,
+          "4": 30,
+          "3": 10,
+          "2": 2,
+          "1": 0
+        }
+      },
+      "comments": [
+        {
+          "id": "com_001",
+          "authorName": "Max Müller",
+          "rating": 5,
+          "text": "Sehr informativ und gut strukturiert!",
+          "createdAt": "13.10.2025"
+        },
+        {
+          "id": "com_002",
+          "authorName": "Anna Schmidt",
+          "rating": 4,
+          "text": "Guter Inhalt, aber manchmal etwas lang.",
+          "createdAt": "2026-05-18"
+        }
+      ],
+      "episodes": [
+        {
+          "id": "ep_001_001",
+          "title": "Stadionverbotsentscheidung (Art. 3 I GG)",
+          "description": "Anika Klafki und Alessa Stache stellen in dieser Folge fLAWless vor und besprechen die Stadionverbotsentscheidung des Bundesverfassungsgerichts vom 11. April 2018 (E 148, 267). Dabei geht es um die mittelbare Drittwirkung des allgemeinen Gleichheitssatzes nach Art. 3 I GG in Privatrechtsverhältnissen.",
+          "episodeNumber": 1,
+          "season": 1,
+          "interviewerIds": ["0001"],
+          "guestIds": ["0002"],
+          "publishedAt": "01.04.2020",
+          "duration": 840,
+          "language": "Deutsch",
+          "posterUrl": "/images/pod_002.jpg",
+          "category": "300",
+          "subcategory": "340",
+          "audioUrl": "",
+          "ratings": {
+            "average": 4.7,
+            "count": 89,
+            "distribution": {
+              "5": 72,
+              "4": 15,
+              "3": 2,
+              "2": 0,
+              "1": 0
+            }
+          },
+          "comments": [
+            {
+              "id": "com_ep_001",
+              "authorName": "Dev Enthusiast",
+              "rating": 5,
+              "text": "Die beste Erklärung von TypeScript, die ich je gehört habe!",
+              "createdAt": "2026-05-22"
+            }
+          ],
+          "tags": ["Stadionverbotsentscheidung", "Gespräch", "Grundgesetz"]
+        },
+        {
+          "id": "ep_001_001",
+          "title": "Stadionverbotsentscheidung (Art. 3 I GG)",
+          "description": "Anika Klafki und Alessa Stache stellen in dieser Folge fLAWless vor und besprechen die Stadionverbotsentscheidung des Bundesverfassungsgerichts vom 11. April 2018 (E 148, 267). Dabei geht es um die mittelbare Drittwirkung des allgemeinen Gleichheitssatzes nach Art. 3 I GG in Privatrechtsverhältnissen.",
+          "episodeNumber": 1,
+          "season": 1,
+          "interviewerIds": ["0001"],
+          "guestIds": ["0002"],
+          "publishedAt": "01.04.2020",
+          "duration": 840,
+          "language": "Deutsch",
+          "posterUrl": "/images/pod_002.jpg",
+          "category": "300",
+          "subcategory": "340",
+          "audioUrl": "",
+          "ratings": {
+            "average": 4.7,
+            "count": 89,
+            "distribution": {
+              "5": 72,
+              "4": 15,
+              "3": 2,
+              "2": 0,
+              "1": 0
+            }
+          },
+          "comments": [
+            {
+              "id": "com_ep_001",
+              "authorName": "Dev Enthusiast",
+              "rating": 5,
+              "text": "Die beste Erklärung von TypeScript, die ich je gehört habe!",
+              "createdAt": "2026-05-22"
+            }
+          ],
+          "tags": ["Stadionverbotsentscheidung", "Gespräch", "Grundgesetz"]
+        }
+      ]
+    },
+    {
+      "id": "pod_002",
+      "title": "Podcast fLAWless",
+      "description": "Die Studierenden der Rechtswissenschaftlichen Fakultät der Friedrich-Schiller-Universität Jena besprechen im Jura-Podcast fLAWless examensrelevante Gerichtsentscheidungen. Die Judikate werden didaktisch so aufbereitet, dass sie einer juristischen Examensklausur nahekommen. Die Urteile und Beschlüsse werden kritisch hinterfragt und am Ende jeder Folge gibt’s praktische Klausurtipps. Der Podcast richtet sich an Jurastudierende und soll helfen, die aktuelle Rechtsprechung im Blick zu behalten. Die erste Staffel des Podcast beschäftigt sich mit aktuellen grundrechtsrelevanten Entscheidungen des Bundesverfassungsgerichts. Das Projekt wird fachlich von Jun.-Prof. Dr. Anika Klafki betreut. Besonderer Dank gilt Tino Tschiesche vom Multi-Media-Zentrum der Friedrich-Schiller-Universität Jena für die tontechnische Unterstützung.",
+      "publisher": {
+        "id": "pub_002",
+        "name": "Multimediazentrum",
+        "website": "https://www.uni-jena.de/10680/multimediazentrum",
+        "email": "mmz@uni-jena.de"
+      },
+      "authorIds": ["0001", "0002"],
+      "publishedAt": "17.01.2020",
+      "language": "Deutsch",
+      "posterUrl": "/images/pod_002.jpg",
+      "category": "300",
+      "subcategory": "340",
+      "ratings": {
+        "average": 4.5,
+        "count": 127,
+        "distribution": {
+          "5": 85,
+          "4": 30,
+          "3": 10,
+          "2": 2,
+          "1": 0
+        }
+      },
+      "comments": [
+        {
+          "id": "com_001",
+          "authorName": "Max Müller",
+          "rating": 5,
+          "text": "Sehr informativ und gut strukturiert!",
+          "createdAt": "13.10.2025"
+        },
+        {
+          "id": "com_002",
+          "authorName": "Anna Schmidt",
+          "rating": 4,
+          "text": "Guter Inhalt, aber manchmal etwas lang.",
+          "createdAt": "2026-05-18"
+        }
+      ],
+      "episodes": [
+        {
+          "id": "ep_001_001",
+          "title": "Stadionverbotsentscheidung (Art. 3 I GG)",
+          "description": "Anika Klafki und Alessa Stache stellen in dieser Folge fLAWless vor und besprechen die Stadionverbotsentscheidung des Bundesverfassungsgerichts vom 11. April 2018 (E 148, 267). Dabei geht es um die mittelbare Drittwirkung des allgemeinen Gleichheitssatzes nach Art. 3 I GG in Privatrechtsverhältnissen.",
+          "episodeNumber": 1,
+          "season": 1,
+          "interviewerIds": ["0001"],
+          "guestIds": ["0002"],
+          "publishedAt": "01.04.2020",
+          "duration": 840,
+          "language": "Deutsch",
+          "posterUrl": "/images/pod_002.jpg",
+          "category": "300",
+          "subcategory": "340",
+          "audioUrl": "",
+          "ratings": {
+            "average": 4.7,
+            "count": 89,
+            "distribution": {
+              "5": 72,
+              "4": 15,
+              "3": 2,
+              "2": 0,
+              "1": 0
+            }
+          },
+          "comments": [
+            {
+              "id": "com_ep_001",
+              "authorName": "Dev Enthusiast",
+              "rating": 5,
+              "text": "Die beste Erklärung von TypeScript, die ich je gehört habe!",
+              "createdAt": "2026-05-22"
+            }
+          ],
+          "tags": ["Stadionverbotsentscheidung", "Gespräch", "Grundgesetz"]
+        },
+        {
+          "id": "ep_001_001",
+          "title": "Stadionverbotsentscheidung (Art. 3 I GG)",
+          "description": "Anika Klafki und Alessa Stache stellen in dieser Folge fLAWless vor und besprechen die Stadionverbotsentscheidung des Bundesverfassungsgerichts vom 11. April 2018 (E 148, 267). Dabei geht es um die mittelbare Drittwirkung des allgemeinen Gleichheitssatzes nach Art. 3 I GG in Privatrechtsverhältnissen.",
+          "episodeNumber": 1,
+          "season": 1,
+          "interviewerIds": ["0001"],
+          "guestIds": ["0002"],
+          "publishedAt": "01.04.2020",
+          "duration": 840,
+          "language": "Deutsch",
+          "posterUrl": "/images/pod_002.jpg",
+          "category": "300",
+          "subcategory": "340",
+          "audioUrl": "",
+          "ratings": {
+            "average": 4.7,
+            "count": 89,
+            "distribution": {
+              "5": 72,
+              "4": 15,
+              "3": 2,
+              "2": 0,
+              "1": 0
+            }
+          },
+          "comments": [
+            {
+              "id": "com_ep_001",
+              "authorName": "Dev Enthusiast",
+              "rating": 5,
+              "text": "Die beste Erklärung von TypeScript, die ich je gehört habe!",
+              "createdAt": "2026-05-22"
+            }
+          ],
+          "tags": ["Stadionverbotsentscheidung", "Gespräch", "Grundgesetz"]
+        }
+      ]
+    },
+    {
+      "id": "pod_002",
+      "title": "Podcast fLAWless",
+      "description": "Die Studierenden der Rechtswissenschaftlichen Fakultät der Friedrich-Schiller-Universität Jena besprechen im Jura-Podcast fLAWless examensrelevante Gerichtsentscheidungen. Die Judikate werden didaktisch so aufbereitet, dass sie einer juristischen Examensklausur nahekommen. Die Urteile und Beschlüsse werden kritisch hinterfragt und am Ende jeder Folge gibt’s praktische Klausurtipps. Der Podcast richtet sich an Jurastudierende und soll helfen, die aktuelle Rechtsprechung im Blick zu behalten. Die erste Staffel des Podcast beschäftigt sich mit aktuellen grundrechtsrelevanten Entscheidungen des Bundesverfassungsgerichts. Das Projekt wird fachlich von Jun.-Prof. Dr. Anika Klafki betreut. Besonderer Dank gilt Tino Tschiesche vom Multi-Media-Zentrum der Friedrich-Schiller-Universität Jena für die tontechnische Unterstützung.",
+      "publisher": {
+        "id": "pub_002",
+        "name": "Multimediazentrum",
+        "website": "https://www.uni-jena.de/10680/multimediazentrum",
+        "email": "mmz@uni-jena.de"
+      },
+      "authorIds": ["0001", "0002"],
+      "publishedAt": "17.01.2020",
+      "language": "Deutsch",
+      "posterUrl": "/images/pod_002.jpg",
+      "category": "300",
+      "subcategory": "340",
+      "ratings": {
+        "average": 4.5,
+        "count": 127,
+        "distribution": {
+          "5": 85,
+          "4": 30,
+          "3": 10,
+          "2": 2,
+          "1": 0
+        }
+      },
+      "comments": [
+        {
+          "id": "com_001",
+          "authorName": "Max Müller",
+          "rating": 5,
+          "text": "Sehr informativ und gut strukturiert!",
+          "createdAt": "13.10.2025"
+        },
+        {
+          "id": "com_002",
+          "authorName": "Anna Schmidt",
+          "rating": 4,
+          "text": "Guter Inhalt, aber manchmal etwas lang.",
+          "createdAt": "2026-05-18"
+        }
+      ],
+      "episodes": [
+        {
+          "id": "ep_001_001",
+          "title": "Stadionverbotsentscheidung (Art. 3 I GG)",
+          "description": "Anika Klafki und Alessa Stache stellen in dieser Folge fLAWless vor und besprechen die Stadionverbotsentscheidung des Bundesverfassungsgerichts vom 11. April 2018 (E 148, 267). Dabei geht es um die mittelbare Drittwirkung des allgemeinen Gleichheitssatzes nach Art. 3 I GG in Privatrechtsverhältnissen.",
+          "episodeNumber": 1,
+          "season": 1,
+          "interviewerIds": ["0001"],
+          "guestIds": ["0002"],
+          "publishedAt": "01.04.2020",
+          "duration": 840,
+          "language": "Deutsch",
+          "posterUrl": "/images/pod_002.jpg",
+          "category": "300",
+          "subcategory": "340",
+          "audioUrl": "",
+          "ratings": {
+            "average": 4.7,
+            "count": 89,
+            "distribution": {
+              "5": 72,
+              "4": 15,
+              "3": 2,
+              "2": 0,
+              "1": 0
+            }
+          },
+          "comments": [
+            {
+              "id": "com_ep_001",
+              "authorName": "Dev Enthusiast",
+              "rating": 5,
+              "text": "Die beste Erklärung von TypeScript, die ich je gehört habe!",
+              "createdAt": "2026-05-22"
+            }
+          ],
+          "tags": ["Stadionverbotsentscheidung", "Gespräch", "Grundgesetz"]
+        },
+        {
+          "id": "ep_001_001",
+          "title": "Stadionverbotsentscheidung (Art. 3 I GG)",
+          "description": "Anika Klafki und Alessa Stache stellen in dieser Folge fLAWless vor und besprechen die Stadionverbotsentscheidung des Bundesverfassungsgerichts vom 11. April 2018 (E 148, 267). Dabei geht es um die mittelbare Drittwirkung des allgemeinen Gleichheitssatzes nach Art. 3 I GG in Privatrechtsverhältnissen.",
+          "episodeNumber": 1,
+          "season": 1,
+          "interviewerIds": ["0001"],
+          "guestIds": ["0002"],
+          "publishedAt": "01.04.2020",
+          "duration": 840,
+          "language": "Deutsch",
+          "posterUrl": "/images/pod_002.jpg",
+          "category": "300",
+          "subcategory": "340",
+          "audioUrl": "",
+          "ratings": {
+            "average": 4.7,
+            "count": 89,
+            "distribution": {
+              "5": 72,
+              "4": 15,
+              "3": 2,
+              "2": 0,
+              "1": 0
+            }
+          },
+          "comments": [
+            {
+              "id": "com_ep_001",
+              "authorName": "Dev Enthusiast",
+              "rating": 5,
+              "text": "Die beste Erklärung von TypeScript, die ich je gehört habe!",
+              "createdAt": "2026-05-22"
+            }
+          ],
+          "tags": ["Stadionverbotsentscheidung", "Gespräch", "Grundgesetz"]
+        }
+      ]
+    },
+    {
+      "id": "pod_002",
+      "title": "Podcast fLAWless",
+      "description": "Die Studierenden der Rechtswissenschaftlichen Fakultät der Friedrich-Schiller-Universität Jena besprechen im Jura-Podcast fLAWless examensrelevante Gerichtsentscheidungen. Die Judikate werden didaktisch so aufbereitet, dass sie einer juristischen Examensklausur nahekommen. Die Urteile und Beschlüsse werden kritisch hinterfragt und am Ende jeder Folge gibt’s praktische Klausurtipps. Der Podcast richtet sich an Jurastudierende und soll helfen, die aktuelle Rechtsprechung im Blick zu behalten. Die erste Staffel des Podcast beschäftigt sich mit aktuellen grundrechtsrelevanten Entscheidungen des Bundesverfassungsgerichts. Das Projekt wird fachlich von Jun.-Prof. Dr. Anika Klafki betreut. Besonderer Dank gilt Tino Tschiesche vom Multi-Media-Zentrum der Friedrich-Schiller-Universität Jena für die tontechnische Unterstützung.",
+      "publisher": {
+        "id": "pub_002",
+        "name": "Multimediazentrum",
+        "website": "https://www.uni-jena.de/10680/multimediazentrum",
+        "email": "mmz@uni-jena.de"
+      },
+      "authorIds": ["0001", "0002"],
+      "publishedAt": "17.01.2020",
+      "language": "Deutsch",
+      "posterUrl": "/images/pod_002.jpg",
+      "category": "300",
+      "subcategory": "340",
+      "ratings": {
+        "average": 4.5,
+        "count": 127,
+        "distribution": {
+          "5": 85,
+          "4": 30,
+          "3": 10,
+          "2": 2,
+          "1": 0
+        }
+      },
+      "comments": [
+        {
+          "id": "com_001",
+          "authorName": "Max Müller",
+          "rating": 5,
+          "text": "Sehr informativ und gut strukturiert!",
+          "createdAt": "13.10.2025"
+        },
+        {
+          "id": "com_002",
+          "authorName": "Anna Schmidt",
+          "rating": 4,
+          "text": "Guter Inhalt, aber manchmal etwas lang.",
+          "createdAt": "2026-05-18"
+        }
+      ],
+      "episodes": [
+        {
+          "id": "ep_001_001",
+          "title": "Stadionverbotsentscheidung (Art. 3 I GG)",
+          "description": "Anika Klafki und Alessa Stache stellen in dieser Folge fLAWless vor und besprechen die Stadionverbotsentscheidung des Bundesverfassungsgerichts vom 11. April 2018 (E 148, 267). Dabei geht es um die mittelbare Drittwirkung des allgemeinen Gleichheitssatzes nach Art. 3 I GG in Privatrechtsverhältnissen.",
+          "episodeNumber": 1,
+          "season": 1,
+          "interviewerIds": ["0001"],
+          "guestIds": ["0002"],
+          "publishedAt": "01.04.2020",
+          "duration": 840,
+          "language": "Deutsch",
+          "posterUrl": "/images/pod_002.jpg",
+          "category": "300",
+          "subcategory": "340",
+          "audioUrl": "",
+          "ratings": {
+            "average": 4.7,
+            "count": 89,
+            "distribution": {
+              "5": 72,
+              "4": 15,
+              "3": 2,
+              "2": 0,
+              "1": 0
+            }
+          },
+          "comments": [
+            {
+              "id": "com_ep_001",
+              "authorName": "Dev Enthusiast",
+              "rating": 5,
+              "text": "Die beste Erklärung von TypeScript, die ich je gehört habe!",
+              "createdAt": "2026-05-22"
+            }
+          ],
+          "tags": ["Stadionverbotsentscheidung", "Gespräch", "Grundgesetz"]
+        },
+        {
+          "id": "ep_001_001",
+          "title": "Stadionverbotsentscheidung (Art. 3 I GG)",
+          "description": "Anika Klafki und Alessa Stache stellen in dieser Folge fLAWless vor und besprechen die Stadionverbotsentscheidung des Bundesverfassungsgerichts vom 11. April 2018 (E 148, 267). Dabei geht es um die mittelbare Drittwirkung des allgemeinen Gleichheitssatzes nach Art. 3 I GG in Privatrechtsverhältnissen.",
+          "episodeNumber": 1,
+          "season": 1,
+          "interviewerIds": ["0001"],
+          "guestIds": ["0002"],
+          "publishedAt": "01.04.2020",
+          "duration": 840,
+          "language": "Deutsch",
+          "posterUrl": "/images/pod_002.jpg",
+          "category": "300",
+          "subcategory": "340",
+          "audioUrl": "",
+          "ratings": {
+            "average": 4.7,
+            "count": 89,
+            "distribution": {
+              "5": 72,
+              "4": 15,
+              "3": 2,
+              "2": 0,
+              "1": 0
+            }
+          },
+          "comments": [
+            {
+              "id": "com_ep_001",
+              "authorName": "Dev Enthusiast",
+              "rating": 5,
+              "text": "Die beste Erklärung von TypeScript, die ich je gehört habe!",
+              "createdAt": "2026-05-22"
+            }
+          ],
+          "tags": ["Stadionverbotsentscheidung", "Gespräch", "Grundgesetz"]
+        }
+      ]
+    },
+    {
+      "id": "pod_002",
+      "title": "Podcast fLAWless",
+      "description": "Die Studierenden der Rechtswissenschaftlichen Fakultät der Friedrich-Schiller-Universität Jena besprechen im Jura-Podcast fLAWless examensrelevante Gerichtsentscheidungen. Die Judikate werden didaktisch so aufbereitet, dass sie einer juristischen Examensklausur nahekommen. Die Urteile und Beschlüsse werden kritisch hinterfragt und am Ende jeder Folge gibt’s praktische Klausurtipps. Der Podcast richtet sich an Jurastudierende und soll helfen, die aktuelle Rechtsprechung im Blick zu behalten. Die erste Staffel des Podcast beschäftigt sich mit aktuellen grundrechtsrelevanten Entscheidungen des Bundesverfassungsgerichts. Das Projekt wird fachlich von Jun.-Prof. Dr. Anika Klafki betreut. Besonderer Dank gilt Tino Tschiesche vom Multi-Media-Zentrum der Friedrich-Schiller-Universität Jena für die tontechnische Unterstützung.",
+      "publisher": {
+        "id": "pub_002",
+        "name": "Multimediazentrum",
+        "website": "https://www.uni-jena.de/10680/multimediazentrum",
+        "email": "mmz@uni-jena.de"
+      },
+      "authorIds": ["0001", "0002"],
+      "publishedAt": "17.01.2020",
+      "language": "Deutsch",
+      "posterUrl": "/images/pod_002.jpg",
+      "category": "300",
+      "subcategory": "340",
+      "ratings": {
+        "average": 4.5,
+        "count": 127,
+        "distribution": {
+          "5": 85,
+          "4": 30,
+          "3": 10,
+          "2": 2,
+          "1": 0
+        }
+      },
+      "comments": [
+        {
+          "id": "com_001",
+          "authorName": "Max Müller",
+          "rating": 5,
+          "text": "Sehr informativ und gut strukturiert!",
+          "createdAt": "13.10.2025"
+        },
+        {
+          "id": "com_002",
+          "authorName": "Anna Schmidt",
+          "rating": 4,
+          "text": "Guter Inhalt, aber manchmal etwas lang.",
+          "createdAt": "2026-05-18"
+        }
+      ],
+      "episodes": [
+        {
+          "id": "ep_001_001",
+          "title": "Stadionverbotsentscheidung (Art. 3 I GG)",
+          "description": "Anika Klafki und Alessa Stache stellen in dieser Folge fLAWless vor und besprechen die Stadionverbotsentscheidung des Bundesverfassungsgerichts vom 11. April 2018 (E 148, 267). Dabei geht es um die mittelbare Drittwirkung des allgemeinen Gleichheitssatzes nach Art. 3 I GG in Privatrechtsverhältnissen.",
+          "episodeNumber": 1,
+          "season": 1,
+          "interviewerIds": ["0001"],
+          "guestIds": ["0002"],
+          "publishedAt": "01.04.2020",
+          "duration": 840,
+          "language": "Deutsch",
+          "posterUrl": "/images/pod_002.jpg",
+          "category": "300",
+          "subcategory": "340",
+          "audioUrl": "",
+          "ratings": {
+            "average": 4.7,
+            "count": 89,
+            "distribution": {
+              "5": 72,
+              "4": 15,
+              "3": 2,
+              "2": 0,
+              "1": 0
+            }
+          },
+          "comments": [
+            {
+              "id": "com_ep_001",
+              "authorName": "Dev Enthusiast",
+              "rating": 5,
+              "text": "Die beste Erklärung von TypeScript, die ich je gehört habe!",
+              "createdAt": "2026-05-22"
+            }
+          ],
+          "tags": ["Stadionverbotsentscheidung", "Gespräch", "Grundgesetz"]
+        },
+        {
+          "id": "ep_001_001",
+          "title": "Stadionverbotsentscheidung (Art. 3 I GG)",
+          "description": "Anika Klafki und Alessa Stache stellen in dieser Folge fLAWless vor und besprechen die Stadionverbotsentscheidung des Bundesverfassungsgerichts vom 11. April 2018 (E 148, 267). Dabei geht es um die mittelbare Drittwirkung des allgemeinen Gleichheitssatzes nach Art. 3 I GG in Privatrechtsverhältnissen.",
+          "episodeNumber": 1,
+          "season": 1,
+          "interviewerIds": ["0001"],
+          "guestIds": ["0002"],
+          "publishedAt": "01.04.2020",
+          "duration": 840,
+          "language": "Deutsch",
+          "posterUrl": "/images/pod_002.jpg",
+          "category": "300",
+          "subcategory": "340",
+          "audioUrl": "",
+          "ratings": {
+            "average": 4.7,
+            "count": 89,
+            "distribution": {
+              "5": 72,
+              "4": 15,
+              "3": 2,
+              "2": 0,
+              "1": 0
+            }
+          },
+          "comments": [
+            {
+              "id": "com_ep_001",
+              "authorName": "Dev Enthusiast",
+              "rating": 5,
+              "text": "Die beste Erklärung von TypeScript, die ich je gehört habe!",
+              "createdAt": "2026-05-22"
+            }
+          ],
+          "tags": ["Stadionverbotsentscheidung", "Gespräch", "Grundgesetz"]
+        }
+      ]
+    }
+  ]
+}

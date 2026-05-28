@@ -222,7 +222,7 @@ class CategoriesDropdown {
 
         if (!category) return;
 
-        this.selectButton.textContent = category;
+        this.selectButton.innerHTML = `<h3 class="search-panel__button-categories-title">${category}</h3>`;
 
         // close subcategories
         this.subcategoryList.classList.remove(

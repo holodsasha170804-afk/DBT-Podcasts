@@ -2,11 +2,16 @@
 
 
 .categories {
+  position: absolute;
+  z-index: 999;
+  margin-top: rem(53);
   display: flex;
   width: fit-content;
 
 
   &__list {
+    background-color: var(--color-light);
+
     display: inline-flex;
     flex-direction: column;
     border: var(--border);

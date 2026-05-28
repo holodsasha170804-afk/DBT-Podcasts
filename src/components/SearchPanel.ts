@@ -1,12 +1,12 @@
 import data from '@/data/categories.json';
 
-export default function SearchPanel(): string {
+export default function searchPanel(): string {
 
     return `
-    <div class="container search-panel" data-ts-search-panel>
+    <div class="search-panel" data-ts-search-panel>
         <form class="search-panel__body">
             <div class="search-panel__panel">
-                <button type="button" class="button search-panel__button-categories icon__before icon__before--white-arrow-caret-down-fill" data-ts-search-panel-button-select-category>Alle Kategorien</button>
+                <button type="button" class="button search-panel__button-categories icon__before icon__before--white-arrow-caret-down-fill" data-ts-search-panel-button-select-category><h3 class="search-panel__button-categories-title">Alle Kategorien</h3> </button>
                 <input name="search" class="search-panel__input" placeholder="Suche in der Publicationen..." data-ts-search-panel-input/>
                 <button type="submit" class="search-panel__button-search button icon__before icon__before--white-search" data-ts-search-panel-button-search>Suchen</button> 
             </div>

@@ -1,0 +1,135 @@
+@use "../helpers" as *;
+
+.podcast-card {
+  display: flex;
+  flex-direction: column;
+  gap: rem(10);
+  width: rem(171);
+
+  position: relative;
+  z-index: 1;
+
+  transform: translateY(0) scale(1);
+  transform-origin: center;
+
+  transition:
+          transform var(--transition-duration),
+          box-shadow var(--transition-duration);
+
+  will-change: transform;
+
+  @include hover {
+    cursor: pointer;
+
+    transform: translateY(rem(-8)) scale(1.06);
+    z-index: 10;
+
+    .podcast-card {
+      &__image {
+        transform: scale(1.03);
+        box-shadow: var(--shadow-card-accent);
+        filter: brightness(0.9);
+      }
+
+      &__title {
+        color: var(--color-accent);
+        transform: scale(1.05);
+      }
+
+      &__author {
+        transform: scale(1.03);
+      }
+
+      &__extra {
+        &-episode,
+        &-average {
+          transform: scale(1.05);
+        }
+
+        &-episode::before {
+          fill: var(--color-accent);
+        }
+      }
+    }
+  }
+
+  &__image {
+    width: 100%;
+    height: auto;
+
+    border-radius: rem(3);
+    overflow: hidden;
+
+    box-shadow: var(--shadow-card);
+
+    transform: scale(1);
+    transform-origin: center;
+
+    transition:
+            transform var(--transition-duration),
+            box-shadow var(--transition-duration);
+  }
+
+  &__content {
+    display: flex;
+    flex-direction: column;
+    gap: rem(2);
+
+    min-width: 0;
+  }
+
+  &__title,
+  &__author {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+
+    min-width: 0;
+    transform-origin: left;
+
+    transition:
+            transform var(--transition-duration),
+            color var(--transition-duration);
+  }
+
+  &__title {
+    margin: 0;
+    color: var(--color-dark);
+  }
+
+  &__author {
+    margin: 0;
+
+    font-size: rem(12);
+    color: var(--color-dark-30);
+  }
+
+  &__extra {
+    display: flex;
+    gap: rem(16);
+
+    height: rem(16);
+
+    &-episode,
+    &-average {
+      display: flex;
+      align-items: center;
+
+      padding-inline: rem(5);
+
+      border-radius: rem(10);
+
+      background-color: var(--color-gray-70);
+      color: var(--color-dark);
+
+      font-size: rem(12);
+
+      transform-origin: center;
+
+      transition:
+              transform var(--transition-duration),
+              background-color var(--transition-duration),
+              color var(--transition-duration);
+    }
+  }
+}

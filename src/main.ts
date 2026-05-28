@@ -1,6 +1,8 @@
 import '@/assets/styles/main.scss';
 import App from "@/app/App";
 import SearchPanelCollection from "@/components/SearchPanel.logik.ts";
+import PodcastCatalogCollection from "@/components/PodcastCatalog.logik.ts";
+
 
 const root = document.querySelector('#app');
 
@@ -9,3 +11,4 @@ if (root) {
 }
 
 new SearchPanelCollection();
+new PodcastCatalogCollection();

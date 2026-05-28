@@ -1,0 +1,93 @@
+@use '../helpers' as *;
+
+.podcast-catalog {
+  padding-block: rem(20) rem(40);
+  display: flex;
+  flex-direction: column;
+
+  &:not(:last-child) {
+  border-bottom: var(--border);
+  }
+
+  &__look-more {
+    display: flex;
+    border: none;
+    color: var(--color-dark);
+    background-color: transparent;
+    justify-content: start;
+    align-items: center;
+
+    &::after {
+      width: rem(24);
+      height: rem(24);
+      transition-duration: var(--transition-duration);
+    }
+
+    @include hover {
+      color: var(--color-dark-10);
+
+      &::after {
+        transform: translateX(rem(3));
+      }
+    }
+  }
+
+
+
+  &__carousel {
+    display: flex;
+    align-items: center;
+  }
+
+  &__button-left,
+  &__button-right {
+    position: relative;
+    padding: 0;
+    background-color: var(--color-light);
+    border: none;
+    bottom: rem(34);
+  }
+
+  &__button-left {
+    &::before {
+      height: rem(171);
+      width: rem(30);
+    }
+
+    @include hover {
+      transform: translateX(rem(-5));
+    }
+  }
+
+  &__button-right {
+    &::after {
+      height: rem(171);
+      width: rem(30);
+    }
+
+
+    @include hover {
+      transform: translateX(rem(5));
+    }
+  }
+
+  &__list {
+    display: flex;
+    gap: rem(21);
+    padding:rem(20) rem(10);
+
+    overflow-x: auto;
+    overflow-y: hidden;
+
+    scrollbar-width: none;
+    scroll-behavior: smooth;
+
+    /* IE / Edge legacy */
+    -ms-overflow-style: none;
+  }
+
+  /* Chrome, Safari, Edge */
+  &__list::-webkit-scrollbar {
+    display: none;
+  }
+}
