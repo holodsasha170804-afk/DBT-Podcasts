@@ -130,5 +130,14 @@
         height: rem(16);
       }
     }
+
+    &--play-circle {
+
+      &::after {
+        background-image: url('../../icons/play-circle-fill.svg');
+        width: rem(38);
+        height: rem(38);
+      }
+    }
   }
 }

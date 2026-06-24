@@ -41,6 +41,7 @@ export default function Footer(): string {
                         alt="MyCore-Logo" 
                         width="120" height="35"
                         title="MyCore-Home-Page"
+                        loading="lazy"
                     /></a>
             </div>
         </div>

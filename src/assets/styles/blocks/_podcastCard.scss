@@ -18,6 +18,35 @@
 
   will-change: transform;
 
+  &__button {
+    position: absolute;
+    z-index: 1;
+    background-color: transparent;
+    width: fit-content;
+    border: none;
+    left: 75%;
+    top: 55%;
+
+    opacity: 0;
+    transform: translateY(10px);
+    transition:
+            opacity 0.3s ease,
+            transform 0.3s ease;
+
+    pointer-events: none;
+  }
+
+  &__play-circle {
+    width: 33px;
+    height: 33px;
+    fill: var(--color-gray-40);
+    opacity: 0.95;
+
+    @include hover {
+      fill: var(--color-accent);
+    }
+  }
+
   @include hover {
     cursor: pointer;
 
@@ -29,6 +58,12 @@
         transform: scale(1.03);
         box-shadow: var(--shadow-card-accent);
         filter: brightness(0.9);
+      }
+
+      &__button {
+        opacity: 1;
+        transform: translateY(0);
+        pointer-events: auto;
       }
 
       &__title {
