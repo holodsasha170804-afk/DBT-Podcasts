@@ -1,0 +1,111 @@
+@use '../helpers' as *;
+
+
+.player {
+  display: flex;
+  height: inherit;
+  column-gap: rem(20);
+  padding-block: rem(2);
+
+  &__actions {
+    display: flex;
+    align-items: center;
+    column-gap: rem(10);
+
+    &-speed-control-button,
+    &-previous-button,
+    &-play-button,
+    &-next-button {
+      border: none;
+      background-color: transparent;
+      padding: 0;
+    }
+
+  }
+
+  &__info {
+    display: flex;
+    background-color: var(--color-gray-70);
+    box-shadow: var(--shadow-player);
+
+    &-inner {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+
+    &-description {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: rem(5) rem(9);
+    }
+
+    &-author {
+      color: var(--color-dark-30);
+    }
+
+    &-range {
+      --range-height: #{rem(10)};
+      --range-thumb-width: #{rem(3)};
+      --range-thumb-height: #{rem(7)};
+      --range-track-height: #{rem(4)};
+      --range-thumb-border: #{rem(1)} solid var(--color-dark-30);
+      --range-thumb-bg: var(--color-light);
+      --range-track-bg: var(--color-gray-40);
+      --range-progress-bg: var(--color-accent);
+
+      appearance: none;
+      -webkit-appearance: none;
+
+      margin: 0;
+      width: 100%;
+      height: var(--range-height);
+      background: transparent;
+      cursor: pointer;
+
+      &::-webkit-slider-runnable-track {
+        height: var(--range-track-height);
+        border-radius: 0;
+        background: var(--range-track-bg);
+      }
+
+      &::-webkit-slider-thumb {
+        appearance: none;
+        -webkit-appearance: none;
+
+        width: var(--range-thumb-width);
+        height: var(--range-thumb-height);
+        margin-top: calc((var(--range-track-height) - var(--range-thumb-height)) / 2);
+
+        border: var(--range-thumb-border);
+        border-radius: 0;
+        background: var(--range-thumb-bg);
+        cursor: pointer;
+      }
+
+      &::-moz-range-track {
+        height: var(--range-track-height);
+        border: none;
+        border-radius: 0;
+        background: var(--range-track-bg);
+      }
+
+      &::-moz-range-progress {
+        height: var(--range-track-height);
+        border-radius: 0;
+        background: var(--range-progress-bg);
+      }
+
+      &::-moz-range-thumb {
+        width: var(--range-thumb-width);
+        height: var(--range-thumb-height);
+
+        border: var(--range-thumb-border);
+        border-radius: 0;
+        background: var(--range-thumb-bg);
+        cursor: pointer;
+      }
+    }
+  }
+}

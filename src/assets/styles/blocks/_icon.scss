@@ -131,12 +131,43 @@
       }
     }
 
-    &--play-circle {
-
+    &--play-circle-fill {
       &::after {
         background-image: url('../../icons/play-circle-fill.svg');
         width: rem(38);
         height: rem(38);
+      }
+    }
+
+    &--play-circle {
+      &::after {
+        background-image: url('../../icons/play-circle.svg');
+        width: rem(35);
+        height: rem(35);
+      }
+    }
+
+    &--x {
+      &::after {
+        background-image: url('../../icons/x.svg');
+        width: rem(16);
+        height: rem(16);
+      }
+    }
+
+    &--previous {
+      &::after {
+        background-image: url('../../icons/previous.svg');
+        width: rem(25);
+        height: rem(25);
+      }
+    }
+
+    &--next {
+      &::after {
+        background-image: url('../../icons/next.svg');
+        width: rem(25);
+        height: rem(25);
       }
     }
   }

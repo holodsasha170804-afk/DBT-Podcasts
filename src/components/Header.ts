@@ -1,6 +1,7 @@
 import Logo from "@/assets/images/dbt-logo.svg";
 import type {NavigationItem} from "@/types.ts";
 import { renderNavigation } from "@/utils/utils.ts";
+import player from "@/components/Player.ts";
 
 const navigationPrimary: NavigationItem[] = [
     {
@@ -73,7 +74,7 @@ export default function Header(): string {
         </nav>
         <div class="header__player">
             <div class="header__player-inner container">
-         
+                ${player()}
             </div>
         </div>
       </header>
