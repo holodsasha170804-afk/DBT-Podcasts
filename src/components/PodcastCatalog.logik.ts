@@ -78,7 +78,6 @@ export default class PodcastCatalogCollection {
             .querySelectorAll<HTMLElement>(selectors.root)
             .forEach((element) => {
             new PodcastCatalog(element);
-            console.log("Element created");
             });
     }
 }
